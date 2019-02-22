@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightpurple"
+    android:padding="16dp"
+    tools:context="com.example.aferyannie.learningapp.HomeFragment">
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:clickable="false"
+        android:fontFamily="casual"
+        android:text="@string/category"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="@color/com_facebook_button_background_color"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnStart1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnStart2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/confusing_shape"
+        android:fontFamily="casual"
+        android:padding="18dp"
+        android:text="@string/alphabets_upper"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnStart2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/confusing_shape"
+        android:fontFamily="casual"
+        android:padding="18dp"
+        android:text="@string/alphabets_lower"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnStart2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/confusing_shape"
+        android:fontFamily="casual"
+        android:padding="18dp"
+        android:text="@string/numerals"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/cherryscene"  >
+
+<TableLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:gravity="center"
+	android:layout_weight="1"
+	android:stretchColumns="*">
+	
+	<TableRow>
+	
+	    <ImageView    
+	   	android:layout_height="fill_parent"
+		android:id="@+id/letter_icon"     
+		android:gravity="center"    
+		android:layout_weight="1"       
+		android:src="@drawable/letter_a" />	
+		
+		<TableLayout android:layout_width="fill_parent" android:gravity="bottom" android:id="@+id/quizView" android:layout_height="wrap_content" android:stretchColumns="*" android:layout_weight="0">
+		    <TableRow>
+		        <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/star" android:id="@+id/star1"></ImageView>
+		        <TextView android:text="Apple" android:visibility="visible" style="@style/CaptionFont" android:layout_width="fill_parent"  android:gravity="left" android:id="@+id/option1"></TextView>
+		    </TableRow>
+		    <TableRow>
+		    	<ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/star" android:id="@+id/star2"></ImageView>
+		        <TextView android:text="Ball" android:visibility="visible" style="@style/CaptionFont" android:layout_width="fill_parent" android:gravity="left" android:id="@+id/option2"></TextView>
+		    </TableRow>
+		    <TableRow>
+		    	<ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/star" android:id="@+id/star3"></ImageView>
+		        <TextView android:text="Cat" android:visibility="visible" style="@style/CaptionFont" android:layout_width="fill_parent" android:gravity="left" android:id="@+id/option3"></TextView>
+		    </TableRow>
+		</TableLayout>	
+	</TableRow>		
+	
+</TableLayout>
+
+    
+</LinearLayout>

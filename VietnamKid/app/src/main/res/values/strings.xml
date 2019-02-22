@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Bé Vui Học Chữ</string>
+    <string name="company_name">Công ty cổ phần DevPro Việt Nam</string>
+    <string name="description_app">Bé vui học chữ Tiếng Việt - Tiếng Anh</string>
+
+    <string name="title_activity_hoc_tap">Học Tập</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="loading_topic">Loading...</string>
+    <string name="loading_quangcao">Đang tải quảng cáo!</string>
+    <string name="tip_taitainguyen">Cập nhật tài nguyên để vào!</string>
+    <string name="missing_database_alert_message">Đã có lỗi xảy ra. Khởi động lại ứng dụng để cập nhật dữ liệu</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <integer name="swing_anim_time">500</integer>
+    <string name="title_activity_main">Dap bong bay!</string>
+    <string name="start">Ba</string>
+    <string name="pause_dialog_title">Thoát game</string>
+    <string name="game_title">Balloons!</string>
+    <string name="exit_confirm">Exit Game</string>
+    <string name="admob_id_app">ca-app-pub-3378361433336296~1819472652</string>
+    <string name="admob_id_unit_rewarded_video">ca-app-pub-3378361433336296/8902372861</string>
+    <string name="admob_id_unit_interstitial">ca-app-pub-3378361433336296/1790169606</string>
+    <string name="admob_id_unit_interstitial_video">ca-app-pub-3378361433336296/5893066142</string>
+    <string name="ok">OK</string>
+    <string name="title_activity_learn_write">LearnWrite</string>
+    <string name="subject_share_app">Bé học chữ thật vui và hiệu quả</string>
+    <string name="body_share_app">Vào tải nhé bạn\n</string>
+    <string name="idTestDevice">A365B4E0F5B7CBFD69C80E5B678F4237</string>
+    <string name="idTestDevice1">FE10A8075E5F14283B4A4CD5D345FDED</string>-->
+    <string name="idTestDevice2">3B53FD6205189BA0158F2BDAA1D97F2C</string>-->
+    <string name="idTestDevice3">3B53FD6205189BA0158F2BDAA1D97F2C</string>-->
+    <string name="idTestDevice4">3B53FD6205189BA0158F2BDAA1D97F2C</string>-->
+    <string name="idTestDevice5">3B53FD6205189BA0158F2BDAA1D97F2C</string>-->
+    <string name="idTestDevice6">3B53FD6205189BA0158F2BDAA1D97F2C</string>-->
+    <string name="da_mo_khoa_tat_ca_cac_chu_de">Đã mở khóa tất cả chủ đề!</string>
+    <string name="code_khong_dung">Code không đúng!</string>
+    <string name="khong_duoc_de_trong_code">Không được để trống code!</string>
+
+    <!--TEST ID:-->
+    <!--Banner	ca-app-pub-3940256099942544/6300978111-->
+    <!--Interstitial	ca-app-pub-3940256099942544/1033173712-->
+    <!--Interstitial Video	ca-app-pub-3940256099942544/8691691433-->
+    <!--Rewarded Video	ca-app-pub-3940256099942544/5224354917-->
+    <!--Native Advanced	ca-app-pub-3940256099942544/2247696110-->
+    <!--Native Advanced Video	ca-app-pub-3940256099942544/1044960115-->
+
+
+    <!-- inter-vd: ca-app-pub-1353273458352536/1965020302
+        inter: ca-app-pub-1353273458352536/1976360728
+        reward: ca-app-pub-1353273458352536/2714727320
+        App-id: ca-app-pub-1353273458352536~4128839206
+     -->
+
+    new unit id
+    inter_video:ca-app-pub-3378361433336296/5893066142
+    inter_origin:ca-app-pub-3378361433336296/1790169606
+    reward:ca-app-pub-3378361433336296/8902372861
+    app_ID:ca-app-pub-3378361433336296~1819472652
+
+</resources>
+

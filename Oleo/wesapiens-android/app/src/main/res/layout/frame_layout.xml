@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:id="@+id/frame_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/frame_delete"
+        android:layout_width="@dimen/unit24"
+        android:layout_height="@dimen/unit24"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/unit3"
+        android:tint="@color/white"
+        app:fabCustomSize="@dimen/unit24"
+        app:srcCompat="@drawable/ic_close" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/frame_card"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/unit10"
+        android:backgroundTint="@color/md_blue_grey_100"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="@dimen/unit10">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="@dimen/unit200"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/unit3"
+                android:orientation="vertical"
+                android:padding="@dimen/unit8">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/unit3"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="FrameText"
+                        android:layout_width="@dimen/unit140"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/add_start_image" />
+
+                    <ImageView
+                        android:id="@+id/frame_add_start_image"
+                        android:layout_width="@dimen/unit30"
+                        android:layout_height="@dimen/unit30"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="@dimen/unit3"
+                        app:srcCompat="@drawable/add_image" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/unit3"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="FrameText"
+                        android:layout_width="@dimen/unit140"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/add_end_image" />
+
+                    <ImageView
+                        android:id="@+id/frame_add_end_image"
+                        android:layout_width="@dimen/unit30"
+                        android:layout_height="@dimen/unit30"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="@dimen/unit3"
+                        app:srcCompat="@drawable/add_image" />
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/frame_name"
+                    style="@style/FrameEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/unit3"
+                    android:hint="@string/add_name" />
+
+                <EditText
+                    android:id="@+id/frame_time"
+                    style="@style/FrameEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/unit3"
+                    android:hint="@string/add_name" />
+
+
+                <EditText
+                    android:id="@+id/frame_place"
+                    style="@style/FrameEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/unit3"
+                    android:hint="@string/add_name" />
+
+                <EditText
+                    android:id="@+id/frame_context"
+                    style="@style/FrameEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="@dimen/unit3"
+                    android:hint="@string/add_explanation" />
+
+                <EditText
+                    android:id="@+id/frame_question"
+                    style="@style/FrameEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/unit3"
+                    android:hint="@string/add_question" />
+
+                <EditText
+                    android:id="@+id/frame_answer"
+                    style="@style/FrameEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/unit3"
+                    android:hint="@string/add_answer" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            style="@style/DialogButton"
+            android:id="@+id/frame_save"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/unit30"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="@dimen/unit5"
+            android:textSize="@dimen/unit18"
+            android:text="@string/save" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/frame_saved_card"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/unit10"
+        android:backgroundTint="@color/md_blue_grey_100"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="@dimen/unit10">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="@dimen/unit200"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/unit3"
+                android:orientation="vertical"
+                android:padding="@dimen/unit8">
+
+                <ImageView
+                    android:id="@+id/frame_saved_start_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/unit120"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/unit3"
+                    android:scaleType="centerInside"
+                    tool:src="@drawable/caveman01" />
+
+
+                <ImageView
+                    android:id="@+id/frame_saved_end_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/unit120"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/unit3"
+                    android:scaleType="centerInside"
+                    tool:src="@drawable/caveman02" />
+
+                <TextView
+                    android:id="@+id/frame_saved_name"
+                    style="@style/FrameText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/unit3"
+                    android:text="@string/add_name" />
+
+                <TextView
+                    android:id="@+id/frame_saved_time"
+                    style="@style/FrameText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/unit3"
+                    android:text="@string/add_name" />
+
+                <TextView
+                    android:id="@+id/frame_saved_place"
+                    style="@style/FrameText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/unit3"
+                    android:text="@string/add_name" />
+
+                <TextView
+                    android:id="@+id/frame_saved_context"
+                    style="@style/FrameText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="@dimen/unit3"
+                    android:text="@string/add_explanation" />
+
+                <TextView
+                    android:id="@+id/frame_saved_question"
+                    style="@style/FrameText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/unit3"
+                    android:text="@string/add_question" />
+
+                <TextView
+                    android:id="@+id/frame_saved_answer"
+                    style="@style/FrameText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/unit3"
+                    android:text="@string/add_answer" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/cherryscene"
+    >
+   
+<TableLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:gravity="center_vertical"
+	android:layout_weight="1"
+	android:stretchColumns="*">
+	
+	<TableRow>
+		<TextView android:text="A" android:layout_height="wrap_content" android:gravity="center" style="@style/UpperCaseFont" android:id="@+id/tvUpperCase"  />	
+		
+		<TextView android:text="a" android:layout_height="wrap_content" android:gravity="center" style="@style/LowerCaseFont" android:id="@+id/tvLowerCase"  />
+		
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal" 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+		
+	        
+		    <ImageView android:id="@+id/letter_icon" 
+		    android:layout_height="wrap_content" 
+		    android:layout_width="wrap_content"
+		    android:layout_gravity="center"
+		    android:src="@drawable/letter_u" />
+        
+		
+		</LinearLayout>
+			
+	
+
+	</TableRow>		
+	
+</TableLayout>
+
+<TableLayout android:layout_width="fill_parent" android:gravity="bottom" android:id="@+id/bottomBar" android:layout_height="wrap_content" android:stretchColumns="1" android:layout_weight="0">
+    <TableRow>
+        <ImageButton android:layout_width="wrap_content" android:id="@+id/prevButton" android:layout_height="wrap_content" android:src="@drawable/prev" android:background="@null"></ImageButton>
+        <TextView android:text="Apple" android:visibility="visible" style="@style/CaptionFont" android:layout_width="fill_parent" android:gravity="center" android:id="@+id/bottomCaption"></TextView>
+        <ImageButton android:layout_width="wrap_content" android:id="@+id/nextButton" android:layout_height="wrap_content" android:src="@drawable/next" android:background="@null"></ImageButton>
+    </TableRow>
+</TableLayout>
+
+</LinearLayout>

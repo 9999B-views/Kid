@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Finger-Paint-master1\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Finger-Paint-master1\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "115,55",
+                        "endColumns": "49,59",
+                        "endOffsets": "160,110"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,105",
+                        "endColumns": "49,59",
+                        "endOffsets": "100,160"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="InnerShapeProperty" format="enum">
+
+        <enum name="None" value="0"/>
+        <enum name="Square" value="1"/>
+        <enum name="Rectangle" value="2"/>
+        <enum name="Circle" value="3"/>
+        <enum name="Triangle" value="4"/>
+        <enum name="Pentagon" value="5"/>
+        <enum name="Star" value="6"/>
+        <enum name="Trapes" value="7"/>
+        <enum name="Ellipse" value="8"/>
+        <enum name="Hexagon" value="9"/>
+        <enum name="Heart" value="10"/>
+        <enum name="YesPhone" value="11"/>
+        <enum name="NoPhone" value="12"/>
+        <enum name="Sound" value="13"/>
+        <enum name="Picture" value="14"/>
+    </attr>
+
+    <attr name="OuterShapeProperty" format="enum">
+        <enum name="None" value="0"/>
+        <enum name="Rounded" value="1"/>
+        <enum name="BottomRounded" value="2"/>
+        <enum name="YesButton" value="3"/>
+        <enum name="NoButton" value="4"/>
+        <enum name="Rectangle" value="5"/>
+        <enum name="Picture" value="6"/>
+    </attr>
+
+    <attr name="OuterShapeDirection" format="enum">
+        <enum name="Center" value="0"/>
+        <enum name="Left" value="1"/>
+        <enum name="Right" value="2"/>
+        <enum name="Top" value="3"/>
+        <enum name="Bottom" value="4"/>
+        <enum name="LeftTop" value="5"/>
+        <enum name="LeftBottom" value="6"/>
+        <enum name="RightTop" value="7"/>
+        <enum name="RightBottom" value="8"/>
+    </attr>
+
+    <attr name="KeyMode" format="enum">
+        <enum name="Normal" value="0"/>
+        <enum name="Figures" value="1"/>
+        <enum name="Numbers" value="2"/>
+        <enum name="Letters" value="3"/>
+        <enum name="System" value="4"/>
+        <enum name="Gaming" value="5"/>
+    </attr>
+
+    <declare-styleable name="FunnyButton">
+        <attr name ="InnerShapeProperty" />
+        <attr name="OuterShapeProperty" />
+        <attr name="OuterShapeDirection" />
+        <attr name="KeyMode" />
+        <attr name="NumbersText" format="string" />
+        <attr name="LettersText" format="string" />
+        <attr name="TextSize" format="dimension"/>
+        <attr name="TextColor" format="reference|color"/>
+        <attr name="innerShapeColor" format="reference|color" />
+        <attr name="outerShapeColor" format="reference|color" />
+        <attr name="pictureSrc" format="reference"/>
+
+    </declare-styleable>
+</resources>

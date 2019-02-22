@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alphabet for Kids</string>
+    <string name="app_desc">Teaches alphabet for Kids</string>
+    <string name="a">Apple</string>
+    <string name="b">Ball</string>
+    <string name="c">Car</string>
+    <string name="d">Dog</string>
+    <string name="e">Egg</string>
+    <string name="f">Flower</string>
+    <string name="g">Grape</string>
+    <string name="h">Hat</string>
+    <string name="i">Igloo</string>
+    <string name="j">Jar</string>
+    <string name="k">King</string>
+    <string name="l">Lion</string>
+    <string name="m">Money</string>
+    <string name="n">Nest</string>
+    <string name="o">Orange</string>
+    <string name="p">Peach</string>
+    <string name="q">Queen</string>
+    <string name="r">Rat</string>
+    <string name="s">Salt</string>
+    <string name="t">Train</string>
+    <string name="u">Unicorn</string>
+    <string name="v">Van</string>
+    <string name="w">Watch</string>
+    <string name="x">X ray</string>
+    <string name="y">Yacht</string>
+    <string name="z">Zebra</string>
+</resources>

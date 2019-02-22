@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutDialog"
+    android:layout_width="@dimen/dialog_width"
+    android:layout_height="@dimen/dialog_height"
+    android:layout_gravity="center"
+    android:background="@drawable/boder_double_selector">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline_v1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.1" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline_v2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.9" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline_v3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.08" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline_v4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.92" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline_h2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.6" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline_h3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.9" />
+
+        <TextView
+            android:id="@+id/tvYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:fontFamily="@font/boosternextfy_bold"
+            android:text="Có"
+            android:textColor="#006fbb"
+            android:textSize="30dp"
+            android:visibility="gone"
+            tools:ignore="UnusedAttribute"
+            tools:layout_editor_absoluteX="66dp"
+            tools:layout_editor_absoluteY="204dp" />
+
+        <TextView
+            android:id="@+id/tvNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/tvYes"
+            android:fontFamily="@font/boosternextfy_bold"
+            android:text="Không"
+            android:textColor="#006fbb"
+            android:textSize="30dp"
+            android:visibility="gone"
+            tools:ignore="UnusedAttribute"
+            tools:layout_editor_absoluteX="352dp"
+            tools:layout_editor_absoluteY="204dp" />
+
+        <TextView
+            android:id="@+id/mgsTV"
+            style="@android:style/TextAppearance.Large"
+            android:layout_width="0dp"
+            android:layout_height="83dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/boosternextfy_bold"
+            android:text="@string/pause_dialog_title"
+            android:textAlignment="center"
+            android:textColor="@color/text_color"
+            android:textSize="45sp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline_h2"
+            app:layout_constraintEnd_toStartOf="@+id/guideline_v2"
+            app:layout_constraintStart_toStartOf="@+id/guideline_v1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5"
+            tools:ignore="UnusedAttribute" />
+
+        <Button
+            android:id="@+id/btnYes"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/game_dialog_btn"
+            android:fontFamily="@font/boosternextfy_bold"
+            android:text="Có"
+            android:textSize="20sp"
+            android:textColor="#342e89"
+            app:layout_constraintBottom_toTopOf="@+id/guideline_h3"
+            app:layout_constraintDimensionRatio="1:0.55"
+            app:layout_constraintStart_toStartOf="@+id/guideline_v3"
+            app:layout_constraintTop_toTopOf="@+id/guideline_h2" />
+
+        <Button
+            android:id="@+id/btnNo"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/game_dialog_btn"
+            android:fontFamily="@font/boosternextfy_bold"
+            android:text="Không"
+            android:textSize="20sp"
+            android:textColor="#342e89"
+            app:layout_constraintBottom_toTopOf="@+id/guideline_h3"
+            app:layout_constraintDimensionRatio="1:0.55"
+            app:layout_constraintEnd_toStartOf="@+id/guideline_v4"
+            app:layout_constraintTop_toTopOf="@+id/guideline_h2" />
+    </android.support.constraint.ConstraintLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,119 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Actionbar Headers -->
+    <string name="actionbar_homepage">Code Notes\'a Hoşgeldin</string>
+    <string name="actionbar_videolist">Videolar</string>
+
+    <!-- Add New Statement -->
+    <string name="addstatement_name">Yeni Girdi Ekle</string>
+    <string name="create_new_statement">Yeni bir Code Notes kartı oluştur</string>
+    <string name="create_conditional_text">Yeni mantık cümlesi:</string>
+    <string name="create_output_text">Yeni çıktı cümlesi:</string>
+    <string name="new_conditional_value_select_text">Doğruluk değeri:</string>
+    <string name="select_output_image_from_gallery"><u>Galeriden çıktı resmi seç</u></string>
+    <string name="select_image_error">Resim seçme işlemi başarısız.</string>
+    <string name="firebase_conditional_exist_error">Bu mantık önermesi zaten sistemde var!</string>
+    <string name="firebase_output_exist_error">Bu çıktı zaten sistemde var!</string>
+    <string name="saved_conditional_text">Yeni mantık cümlesi kaydedildi</string>
+    <string name="saved_output_text">Yeni çıktı kaydedildi</string>
+    <string name="create_new_output">Çıktıyı Kaydet</string>
+    <string name="create_new_conditional">Önermeyi Kaydet</string>
+    <string name="save_logic_statement_error">Bir mantık önermesi girmelisiniz</string>
+    <string name="save_output_statement_error">Bir çıktı girmeniz gerekiyor</string>
+
+    <!-- Barcode Reader -->
+    <string name="read_barcode_text">Eğer buna benzer bir kare kod görüyorsan, aşağıdaki butona tıkla.</string>
+    <string name="no_barcode_captured">Barkod yakalanamadı</string>
+    <string name="barcode_error_format">Barkod okunurken bir hata oluştu.</string>
+    <string name="scan_barcode_button">KARE KODU TARAT</string>
+
+    <!-- Compiler -->
+    <string name="codenotescompiler_name">Programı Çalıştır</string>
+    <string name="code_error_text">Okuttuğun kod anlamlı değildi!</string>
+    <string name="opening_explanation">Kodunuzun anlaşılabilir olduğundan emin olun ve kodu kameraya tanıtın.</string>
+    <string name="no_code_detected">Üzgünüm! Herhangi bir kod algılayamadım...</string>
+    <string name="no_code_dialog_message">Üzgünüm! Herhangi bir kod algılayamadım...</string>
+    <string name="no_code_dialog_title">Kodu Algılayamadım</string>
+
+    <!-- Dependencies -->
+    <string name="detector_dependency">"Kamera algısı çalışması için bu cihaz maalesef uygun değil"</string>
+    <string name="check_connection_text">İnternet bağlantısı yok!
+        Uygulamanın çalışması için internet bağlantınız kontrol edin.</string>
+    <string name="low_storage_error">Hafıza Çok Az</string>
+    <string name="no_camera_permission">Kamera kullanımına izin verilmedi</string>
+    <string name="no_connection">Kodlamak için aktif bir internet bağlantısına ihtiyacın var.</string>
+    <string name="download_printable_files">Kartları içeren dosyayı indirmek için Google Drive hesabını seç.</string>
+    <string name="default_notification_channel_id">codenotesnotification</string>
+    <string name="no_nfc_warning">NFC cihazın tarafından desteklenmiyor.</string>
+    <string name="nfc_disabled_warning">Öncelikle NFC\'yi etkileştirmekisin.</string>
+
+    <!-- Feedback -->
+    <string name="sendfeedback_name">Yorumlarını Bize Yolla</string>
+    <string name="menu_feedback">Gönder</string>
+    <string name="sendfeedback_title">Yorumlarınız Code Notes\'u Güçlendirecek!</string>
+    <string name="sendfeedback_formtitle">Bu yorum ne hakkında?</string>
+    <string name="sendfeedback_formcontent">Yorumu biraz daha fazla açıklayabilir misiniz?</string>
+    <string name="sendfeedback_formtitle_required">Başlık bu yorumu kategorilememize yardım edecek!</string>
+    <string name="sendfeedback_formcontent_required">Detaylar bu yorumu uygulayabilmemiz için çok önemli!</string>
+    <string name="sendfeedback_thankyoumessage">Önerileriniz için teşekkürler!</string>
+
+    <!-- General -->
+    <string name="app_name">Code Notes</string>
+    <string name="hello_blank_fragment">Merhaba!</string>
+    <string name="error_text">Bir hata oluştu.</string>
+    <string name="ok">OK</string>
+
+
+    <!-- Home Page -->
+    <string name="welcome_headline">CodeNotes Uygulamasına Hoş Geldin!</string>
+    <string name="app_description">CodeNotes Ugulaması, Code Notes konsepti ile programlama öğrenmen için geliştirilmiş bir Android uygulamasıdır. </string>
+    <string name="printable_link"><u>PDF Dosyasını İndir</u></string>
+    <string name="welcomepage_continue_button_text">Devam et</string>
+    <string name="story_will_be_here_text">Yakında CodeNotes ile hikayeler oluşturabileceksiniz!</string>
+    <string name="learn_card_title">Programlamayı en baştan mı öğrenmek istiyorsun?</string>
+    <string name="learn_card_detail">Ya da bazı şeyleri yapamadığını mı hissediyorsun? Videoları izleyip, aktiviteleri tamamlayarak kendini geliştirebilirsin.</string>
+    <string name="website_link"><u>Siteye Git</u></string>
+    <string name="learn_card_link"><u>Öğrenme Modunu Başlat</u></string>
+    <string name="activity_card_link"><u>Aktiviteleri Keşfet</u></string>
+    <string name="activity_card_title">Yeni aktiviteler yap</string>
+    <string name="activity_card_detail">Yeni şeyler üretmeden programlamada gelişmen çok zor. Aktiviteler sayesinde bilgini arttırıp, yeteneklerini geliştirebilirsin.</string>
+    <string name="button_learn">Öğren</string>
+    <string name="button_code">Kodla</string>
+    <string name="button_get">Kartlar</string>
+    <string name="sample_card1_title">Örnek If/Else Yapısı</string>
+    <string name="sample_card1_content">Yandaki örnek yapıda negatif bir dizi kullanarak, Code Notes\'ta küp çizdirdik.</string>
+    <string name="sample_card2_title">Örnek For Yapısı</string>
+    <string name="sample_card2_content">Bu örneği çalıştırdıktan sonra 10 farklı sayfada sonucun çalıştığını göreceksin.</string>
+
+    <!-- Image Descriptions -->
+    <string name="welcome_page_loco_desc">CodeNotes Logo</string>
+
+    <!-- Media Player -->
+    <string name="play_pause">Başlat/Durdur</string>
+    <string name="media_content_info">Şimdi çalıyor:</string>
+    <string name="progress_title">Video Yükleniyor</string>
+    <string name="progress_content">İçerik alınıyor ...</string>
+    <string name="detail_info_button_text">Öğrenmeye Başla!</string>
+
+    <!-- New Program Sheet -->
+    <string name="program_name">Program Adı</string>
+    <string name="program_image">Resim Seç</string>
+    <string name="program_create">Program Oluştur</string>
+    <string name="program_save">Kaydet</string>
+    <string name="program_detail">Program Detayları</string>
+
+    <!-- Tutorial -->
+    <string name="previous">Geri</string>
+    <string name="next">İleri</string>
+    <string name="finish">Bitir</string>
+    <string name="cancel">İptal</string>
+    <string name="or_text">veya</string>
+    <string name="save_text">Kaydet</string>
+    <string name="tutorial_content_1">Code Notes\'ta her program START ve END blokları arasına yazılır. Programını bu kartlar arasına koymazsan uygulama kodunu algılayamaz.</string>
+    <string name="tutorial_content_2">"IF" kartının yanında her zaman bir mantık önermesi olmalıdır. Mantık önermen doğruysa program çıktını ekranda görürsün. </string>
+    <string name="tutorial_content_3">Eğer mantık önermen yanlışsa IF bloğunun altındaki cümle çalışmaz. Eğer yanlış bir önermenin çıktısını almak istiyorsan "ELSE" kartını kullan.</string>
+    <string name="tutorial_content_4">"ELSE" kartının yanına bir kart koymana gerek yok. Yukarıdaki program IF-ELSE yapısı ile bir aslan çizimine örnektir.</string>
+    <string name="tutorial_content_5">"FOR" kartı yanına yazdığın sayı kadar ürün çıktısı verir. Eğer "3 times" kartını koyarsan 3 tane ağaç çizer. </string>
+    <string name="tutorial_content_6">"WHILE" kartının yanında "IF" kartında olduğu gibi bir mantık önermesi olmalıdır. Program bu mantık önermesinin doğruluğu değişine kadar çıktı verir.</string>
+
+</resources>

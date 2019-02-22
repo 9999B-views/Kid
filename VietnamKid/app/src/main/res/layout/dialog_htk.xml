@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialog_htk"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="16dp"
+    tools:layout_editor_absoluteY="16dp">
+
+    <Button
+        android:id="@+id/btnLangDialog"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnCloseDialog"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/close"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mgsTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/space2" />
+
+    <ImageView
+        android:id="@+id/replaySound"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/mgsTV"
+        app:layout_constraintTop_toBottomOf="@+id/space2"
+        app:srcCompat="@drawable/soundon" />
+
+    <LinearLayout
+        android:id="@+id/lnParent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mgsTV">
+
+
+        <LinearLayout
+            android:id="@+id/lnLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/img_htk_1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:riv_border_color="#4ce6f7"
+                app:riv_border_width="3dp"
+                app:riv_corner_radius="20dp"
+                app:riv_oval="false"
+                app:riv_tile_mode="clamp"
+                app:srcCompat="@android:color/holo_blue_light" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/img_htk_2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:riv_border_color="#4ce6f7"
+                app:riv_border_width="3dp"
+                app:riv_corner_radius="20dp"
+                app:riv_oval="false"
+                app:riv_tile_mode="clamp"
+                app:srcCompat="@android:color/holo_blue_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnRight"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="false"
+            android:layout_toRightOf="@+id/lnLeft"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/img_htk_3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:riv_border_color="#4ce6f7"
+                app:riv_border_width="3dp"
+                app:riv_corner_radius="20dp"
+                app:riv_oval="false"
+                app:riv_tile_mode="clamp"
+                app:srcCompat="@android:color/darker_gray" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/img_htk_4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:riv_border_color="#4ce6f7"
+                app:riv_border_width="3dp"
+                app:riv_corner_radius="20dp"
+                app:riv_oval="false"
+                app:riv_tile_mode="clamp"
+                app:srcCompat="@android:color/holo_green_dark" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <Space
+        android:id="@+id/space2"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.100000024"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="505dp" />
+
+</android.support.constraint.ConstraintLayout>

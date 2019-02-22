@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/menubg">
+    
+<TableLayout android:layout_width="wrap_content" android:gravity="center" android:id="@+id/menuBar" android:layout_height="wrap_content" android:stretchColumns="*"  android:layout_weight="0">
+    <TableRow>
+    	<TextView android:visible="false"  android:layout_width="fill_parent" android:id="@+id/tv0" android:layout_height="wrap_content" />
+        <TextView android:visible="false"  android:layout_width="fill_parent" android:id="@+id/tv1" android:layout_height="wrap_content" />
+        <TextView android:visible="false"  android:layout_width="fill_parent" android:id="@+id/tv2" android:layout_height="wrap_content" />
+    </TableRow>    
+    <TableRow>
+   		<TextView android:visible="false"  android:layout_width="fill_parent" android:id="@+id/tv3" android:layout_height="wrap_content" />
+        <Button style="@style/ButtonFont" android:text="Learn" android:gravity="center" android:layout_width="wrap_content" android:id="@+id/btnLearn" android:layout_height="wrap_content"   />
+        <TextView android:visible="false"  android:layout_width="fill_parent" android:id="@+id/tv4" android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow>
+        <TextView android:visible="false" android:layout_width="fill_parent" android:id="@+id/tv5" android:layout_height="wrap_content" />
+        <TextView android:visible="false"  android:layout_width="fill_parent" android:id="@+id/tv6" android:layout_height="wrap_content" />
+        <TextView android:visible="false"  android:layout_width="fill_parent" android:id="@+id/tv7" android:layout_height="wrap_content" />        
+    </TableRow>
+    <TableRow>
+        <TextView android:visible="false"  android:layout_width="fill_parent" android:id="@+id/tv8" android:layout_height="wrap_content" />
+		<Button style="@style/ButtonFont" android:text="Recollect" android:layout_width="wrap_content" android:id="@+id/btnRecollect" android:layout_height="wrap_content"  />            
+        <TextView android:visible="false"  android:layout_width="fill_parent" android:id="@+id/tv9" android:layout_height="wrap_content" />
+    </TableRow>        
+    <TableRow>
+        <TextView android:visible="false" android:layout_width="fill_parent" android:id="@+id/tv10" android:layout_height="wrap_content" />
+		<TextView android:visible="false" android:layout_width="fill_parent" android:id="@+id/tv11" android:layout_height="wrap_content" />
+		<TextView android:visible="false" android:layout_width="fill_parent" android:id="@+id/tv12" android:layout_height="wrap_content" />        
+    </TableRow>
+    <TableRow>
+    <TextView android:visible="false" android:layout_width="fill_parent" android:id="@+id/tv13" android:layout_height="wrap_content" />
+        <Button style="@style/ButtonFont" android:text="Quiz" android:layout_width="wrap_content" android:id="@+id/btnQuiz" android:layout_height="wrap_content" />
+        <TextView android:visible="false" android:layout_width="fill_parent" android:id="@+id/tv14" android:layout_height="wrap_content" />
+    </TableRow>        
+    <TableRow>
+        <TextView android:visible="false" android:layout_width="fill_parent" android:id="@+id/tv15" android:layout_height="wrap_content" />
+        <TextView android:visible="false" android:layout_width="fill_parent" android:id="@+id/tv16" android:layout_height="wrap_content" />
+        <TextView android:visible="false" android:layout_width="fill_parent" android:id="@+id/tv17" android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow>
+    	<TextView android:visible="false" android:layout_width="fill_parent" android:id="@+id/tv18" android:layout_height="wrap_content" />
+        <Button style="@style/ButtonFont" android:text="Slate" android:layout_width="wrap_content" android:id="@+id/btnSlate" android:layout_height="wrap_content" />
+        <TextView android:visible="false" android:layout_width="fill_parent" android:id="@+id/tv19" android:layout_height="wrap_content" />
+    </TableRow>        
+    <TableRow>
+    	<TextView android:visible="false" android:layout_width="fill_parent" android:id="@+id/tv20" android:layout_height="wrap_content" />
+        <TextView android:visible="false" android:layout_width="fill_parent" android:id="@+id/tv21" android:layout_height="wrap_content" />
+        <TextView android:visible="false" android:layout_width="fill_parent" android:id="@+id/tv22" android:layout_height="wrap_content" />
+    </TableRow>    
+</TableLayout>
+</LinearLayout>

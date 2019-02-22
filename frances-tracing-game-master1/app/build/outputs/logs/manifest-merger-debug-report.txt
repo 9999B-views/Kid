@@ -1,0 +1,77 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml:3:4-36
+		INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml:5:4-30
+		INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml:4:4-27
+		INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml
+uses-feature#android.hardware.touchscreen
+ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml:7:3-8:28
+	android:required
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml:8:3-26
+	android:name
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml:7:17-60
+uses-feature#android.hardware.screen.portrait
+ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml:9:3-10:29
+	android:required
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml:10:3-27
+	android:name
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml:9:17-64
+application
+ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml:11:3-23:17
+	android:label
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml:11:16-48
+	android:icon
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml:12:16-45
+	android:theme
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml:13:16-63
+activity#com.mtomczak.tracegame.Tracegame
+ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml:14:5-22:16
+	android:screenOrientation
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml:17:15-51
+	android:label
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml:15:15-47
+	android:configChanges
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml:16:15-76
+	android:name
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml:14:15-39
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml:18:7-21:23
+action#android.intent.action.MAIN
+ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml:19:9-61
+	android:name
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml:19:17-58
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml:20:9-69
+	android:name
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml:20:19-66
+uses-sdk
+INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\WORKING\frances-tracing-game-master1\app\src\main\AndroidManifest.xml

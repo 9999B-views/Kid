@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Settings">
+
+    <PreferenceCategory
+        android:title="Coloring">
+
+        <ListPreference
+            android:entries="@array/setting_coloring_scale_behavior_entries"
+            android:entryValues="@array/setting_coloring_scale_behavior_values"
+            android:defaultValue="1"
+            android:key="setting_coloring_scale_behavior"
+            android:title="Scaling behavior of coloring images" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Picture Gallery">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="setting_sharing_allowed"
+            android:summary="Tick to set this option"
+            android:title="Enable sharing in Gallery view" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="setting_deletion_allowed"
+            android:summary="Tick to set this option"
+            android:title="Enable deletion in Gallery view" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

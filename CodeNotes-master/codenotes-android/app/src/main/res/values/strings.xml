@@ -1,0 +1,118 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Actionbar Headers -->
+    <string name="actionbar_homepage">Code Notes Home</string>
+    <string name="actionbar_videolist">Videos</string>
+
+    <!-- Add New Statement -->
+    <string name="addstatement_name">Add New Statement</string>
+    <string name="create_new_statement">Create a new Code Notes card</string>
+    <string name="create_conditional_text">New Conditional Statement:</string>
+    <string name="create_output_text">New Output Statement:</string>
+    <string name="new_conditional_value_select_text">Select truth value:</string>
+    <string name="select_output_image_from_gallery"><u>Select Output Image From Gallery</u></string>
+    <string name="select_image_error">Selecting image is interrupted.</string>
+    <string name="firebase_conditional_exist_error">There is already a conditional with that text</string>
+    <string name="firebase_output_exist_error">There is already an output with that text</string>
+    <string name="saved_conditional_text">New conditional is saved</string>
+    <string name="saved_output_text">New output is saved</string>
+    <string name="create_new_output">Create New Output</string>
+    <string name="create_new_conditional">Create New Conditional</string>
+    <string name="save_logic_statement_error">You should enter a logic statement</string>
+    <string name="save_output_statement_error">You should fill output parameters</string>
+
+    <!-- Barcode Reader -->
+    <string name="read_barcode_text">If you have a card like above, you can capture the barcode.</string>
+    <string name="no_barcode_captured">No Barcode is captured ...</string>
+    <string name="barcode_error_format">Barcode is not read as expected</string>
+    <string name="scan_barcode_button">SCAN QR CODE</string>
+
+    <!-- Compiler -->
+    <string name="codenotescompiler_name">Compile</string>
+    <string name="code_error_text">The code was not meaningful</string>
+    <string name="opening_explanation">Make sure your code is understandable. Then bring the code in front of the camera</string>
+    <string name="no_code_detected">I am sorry! I could not recognize a meaningful code...</string>
+    <string name="no_code_dialog_message">I am sorry! I could not recognize a meaningful code...</string>
+    <string name="no_code_dialog_title">I could not recognize the code</string>
+
+    <!-- Dependencies -->
+    <string name="detector_dependency">"Detector dependencies are not yet available"</string>
+    <string name="check_connection_text">There is no internet connection!
+        To continue please be sure you have an active connection.</string>
+    <string name="low_storage_error">Low Storage</string>
+    <string name="no_camera_permission">Camera Usage is not allowed</string>
+    <string name="no_connection">To code you need an active internet connection.</string>
+    <string name="download_printable_files">Your printable codes will be saved to your Google Drive Account. Choose an account.</string>
+    <string name="default_notification_channel_id">codenotesnotification</string>
+    <string name="no_nfc_warning">NFC is not supported by your device.</string>
+    <string name="nfc_disabled_warning">You need to enable NFC.</string>
+
+    <!-- Feedback -->
+    <string name="sendfeedback_name">Send Feedback to Us</string>
+    <string name="menu_feedback">Send Feedback To Us</string>
+    <string name="sendfeedback_title">Your feedback will improve Code Notes!</string>
+    <string name="sendfeedback_formtitle">What is this feedback about?</string>
+    <string name="sendfeedback_formcontent">Can you explain the improvement detailly?</string>
+    <string name="sendfeedback_formtitle_required">Title will help us to categorize your improvement!</string>
+    <string name="sendfeedback_formcontent_required">Content will help us on how can we improve our application!</string>
+    <string name="sendfeedback_thankyoumessage">Thank you for your feedback!</string>
+
+    <!-- General -->
+    <string name="app_name">Code Notes</string>
+    <string name="hello_blank_fragment">Hello !</string>
+    <string name="error_text">An error occured.</string>
+    <string name="ok">OK</string>
+
+    <!-- Home Page -->
+    <string name="welcome_headline">Welcome to CodeNotes App!</string>
+    <string name="app_description">CodeNotes App is the companian app for the CodeNotes that allows you to learn the concepts of programming.</string>
+    <string name="printable_link"><u>Get the PDF file</u></string>
+    <string name="welcomepage_continue_button_text">Continue</string>
+    <string name="story_will_be_here_text">Soon you will be able to create stories with CodeNotes!</string>
+    <string name="learn_card_title">Do you want to learn programming from scratch?</string>
+    <string name="learn_card_detail">Or do you feel like stuck? You can start watching videos and learn programming with simple activities.</string>
+    <string name="activity_card_title">Start with various activities</string>
+    <string name="activity_card_detail">You cannot improve in programming without creating new programs. Find some activities to improve your knowledge and skills.</string>
+    <string name="website_link"><u>Go to Website</u></string>
+    <string name="learn_card_link"><u>Open Learning Mode</u></string>
+    <string name="activity_card_link"><u>See The Activities</u></string>
+    <string name="button_learn">Learn</string>
+    <string name="button_code">Code</string>
+    <string name="button_get">Cards</string>
+    <string name="sample_card1_title">An Example If/Else Structure</string>
+    <string name="sample_card1_content">In this example we used a negative conditional to create an animating cube on screen.</string>
+    <string name="sample_card2_title">An Example For Structure</string>
+    <string name="sample_card2_content">After you compile this program, there will be 10 different pages of cubes.</string>
+
+    <!-- Image Descriptions -->
+    <string name="welcome_page_loco_desc">CodeNotes Logo</string>
+
+    <!-- Media Player -->
+    <string name="play_pause">Play/Pause</string>
+    <string name="media_content_info">Playing Now:</string>
+    <string name="progress_title">Video Content is Loading</string>
+    <string name="progress_content">Retrieving data ...</string>
+    <string name="detail_info_button_text">Start Learning!</string>
+
+    <!-- New Program Sheet -->
+    <string name="program_name">Program Name</string>
+    <string name="program_image">Select Images</string>
+    <string name="program_create">Create Program</string>
+    <string name="program_save">Save</string>
+    <string name="program_detail">See Details</string>
+
+    <!-- Tutorial -->
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
+    <string name="cancel">Cancel</string>
+    <string name="or_text">or</string>
+    <string name="save_text">Save</string>
+    <string name="tutorial_content_1">Every program begins with "START" card and ends with "END" card. If you do not put these cards, compiler cannot understand what you have typed.</string>
+    <string name="tutorial_content_2">"IF" card needs a conditional at the right hand side. If the conditional is true, you will see the result as output. </string>
+    <string name="tutorial_content_3">If the conditional is false, there will be no output. To get an output we should use "ELSE" card.</string>
+    <string name="tutorial_content_4">"ELSE" should stand at its own line. This expression will be evaluate the "ELSE" expression and draws a lion.</string>
+    <string name="tutorial_content_5">"FOR" card needs a number at the right hand side. If you say 3 times, there will be 3 trees as output. </string>
+    <string name="tutorial_content_6">"WHILE" card needs a conditional at the right hand side. It will be evaluated until the condition will be meet.</string>
+
+</resources>

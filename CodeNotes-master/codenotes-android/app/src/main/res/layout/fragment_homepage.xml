@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/welcome_card"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/unit8"
+        android:layout_alignParentTop="true"
+        card_view:cardBackgroundColor="@color/white"
+        card_view:cardCornerRadius="@dimen/unit8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/unit10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/welcome_image"
+                    android:layout_width="@dimen/unit60"
+                    android:layout_height="@dimen/unit60"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginRight="@dimen/unit5"
+                    app:srcCompat="@mipmap/codenoteslogo_round" />
+
+
+                <TextView
+                    android:id="@+id/welcome_card_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/welcome_headline" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/welcome_card_detail"
+                style="@style/CardTextDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="@dimen/unit5"
+                android:layout_marginBottom="@dimen/unit5"
+                android:ellipsize="end"
+                android:maxLines="5"
+                android:text="@string/app_description" />
+
+            <TextView
+                android:id="@+id/websitecard_link"
+                style="@style/LinkText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="@dimen/unit5"
+                android:layout_marginBottom="@dimen/unit5"
+                android:clickable="true"
+                android:maxLines="5"
+                android:text="@string/website_link" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/navigationBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:elevation="@dimen/unit20"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/unit5">
+
+        <LinearLayout
+            android:id="@+id/button_learn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:layout_margin="@dimen/unit10"
+            android:orientation="horizontal"
+            android:scaleType="fitXY">
+
+            <ImageView
+                android:layout_width="@dimen/unit30"
+                android:layout_height="@dimen/unit30"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/unit3"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/ic_student" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:text="@string/button_learn"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/button_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:layout_margin="@dimen/unit10"
+            android:orientation="horizontal"
+            android:scaleType="fitXY">
+
+            <ImageView
+                android:layout_width="@dimen/unit30"
+                android:layout_height="@dimen/unit30"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/unit3"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/ic_coding" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:text="@string/button_code"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/button_get"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/unit10"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:scaleType="fitXY">
+
+            <ImageView
+                android:layout_width="@dimen/unit30"
+                android:layout_height="@dimen/unit30"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/unit3"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/ic_download" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:text="@string/button_get"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/newStatementButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:layout_margin="@dimen/unit10"
+            android:orientation="horizontal"
+            android:scaleType="fitXY">
+
+            <ImageView
+                android:layout_width="@dimen/unit30"
+                android:layout_height="@dimen/unit30"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/unit3"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/ic_library_add_black_24dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:text="@string/create_new_statement"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Animals",
+    "folder": "book_animals",
+    "cover": "balloons.png",
+    "pages": [
+      {
+        "name": "Balloons",
+        "file": "balloons.png"
+      },
+      {
+        "name": "Balloons",
+        "file": "balloons.png"
+      },
+      {
+        "name": "Balloons",
+        "file": "balloons.png"
+      },
+      {
+        "name": "Balloons",
+        "file": "balloons.png"
+      },
+      {
+        "name": "Balloons",
+        "file": "balloons.png"
+      },
+      {
+        "name": "Balloons",
+        "file": "balloons.png"
+      },
+      {
+        "name": "Balloons",
+        "file": "balloons.png"
+      }
+    ]
+  },
+  {
+    "name": "Abstract",
+    "folder": "book_animals",
+    "cover": "balloons.png",
+    "pages": [
+      {
+        "name": "Balloons",
+        "file": "balloons.png"
+      },
+      {
+        "name": "Balloons",
+        "file": "balloons.png"
+      }
+    ]
+  },
+  {
+    "name": "Abstract",
+    "folder": "book_animals",
+    "cover": "balloons.png",
+    "pages": [
+      {
+        "name": "Balloons",
+        "file": "balloons.png"
+      },
+      {
+        "name": "Balloons",
+        "file": "balloons.png"
+      }
+    ]
+  },
+  {
+    "name": "Abstract",
+    "folder": "book_animals",
+    "cover": "balloons.png",
+    "pages": [
+      {
+        "name": "Balloons",
+        "file": "balloons.png"
+      },
+      {
+        "name": "Balloons",
+        "file": "balloons.png"
+      }
+    ]
+  },
+  {
+    "name": "Abstract",
+    "folder": "book_animals",
+    "cover": "balloons.png",
+    "pages": [
+      {
+        "name": "Balloons",
+        "file": "balloons.png"
+      },
+      {
+        "name": "Balloons",
+        "file": "balloons.png"
+      }
+    ]
+  },
+  {
+    "name": "Abstract",
+    "folder": "book_animals",
+    "cover": "balloons.png",
+    "pages": [
+      {
+        "name": "Balloons",
+        "file": "balloons.png"
+      },
+      {
+        "name": "Balloons",
+        "file": "balloons.png"
+      }
+    ]
+  }
+]

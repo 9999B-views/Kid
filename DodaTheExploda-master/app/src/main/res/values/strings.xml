@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Doda The Exploda</string>
+    <string name="score_hints">Hints:\n%d</string>
+    <string name="score_time">Time:\n%d</string>
+    <string name="score_found">%1$d/%2$d\n%3$d</string>
+
+
+    <string name="level_baby">Baby</string>
+    <string name="level_toddler">Toddler</string>
+    <string name="level_child">Child</string>
+    <string name="level_childtimed">Child Timed</string>
+    <string name="level_adult">Adult</string>
+    <string name="level_adulttimed">Adult Timed</string>
+    <string name="find">Find:</string>
+    <string name="game_over">Game Over</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="complete">Level Complete!</string>
+    <string name="next">Next!\n▶</string>
+    <string name="now_we_go_faster">Now we go faster!</string>
+    <string name="miss_penalty">-5 seconds</string>
+    <string name="time_bonus">Time Bonus: %d</string>
+    <string name="hint_bonus">Hint Bonus: %d</string>
+    <string name="hi_im_doda">Hi, I\'m Doda… Doda the Exploda! Will you help me blow stuff up?  Great!</string>
+    <string name="blow_stuff_up">Blow stuff up!</string>
+    <string name="use_background">Use background image (extra points)</string>
+    <string name="sfx_volume">SFX Volume</string>
+    <string name="doda">Doda</string>
+
+
+    <integer name="level_baby_icon">0x1F476</integer>
+    <integer name="level_toddler_icon">0x1F467</integer>
+    <integer name="level_child_icon">0x1F468</integer>
+    <integer name="level_childtimed_icon">0x1F468</integer>
+    <integer name="level_adult_icon">0x1F475</integer>
+    <integer name="level_adulttimed_icon">0x1F475</integer>
+
+
+
+    <string name="about_app">
+        <![CDATA[
+
+           <p>Welcome to DodaTheExploda!</p>
+
+           <p>Help Doda blow stuff up!</p>
+
+           <p>DodaTheExploda is opensource software. See the full license and sourcecode
+            <a href=\"https://github.com/quaap/DodaTheExploda\">here</a>.</p>
+
+            <p>Report any issues, feedback, or suggestions
+            <a href=\"https://github.com/quaap/DodaTheExploda/issues\">here</a>.</p>
+
+            <p>This program was written by
+            <a href=\'http://quaap.com/D/programming-index?from=DodaTheExploda\'>Tom Kliethermes</a></p>
+
+           <p>Doda herself should best be considered parody and a small dose of fair use.</p>
+
+            ]]>
+    </string>
+    <string name="about">About</string>
+
+</resources>

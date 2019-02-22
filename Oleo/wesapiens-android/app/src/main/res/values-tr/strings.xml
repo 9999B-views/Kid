@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">Olea</string>
+    <string name="question_submit_button_text">OK</string>
+    <string name="splash_text"><i>Dünya tarihinden fen bilimleri</i></string>
+    <string name="internet_connection_error">İnternet bağlantısı kurulamadı. Daha çok içerik görmek için internete bağlan!</string>
+    <string name="error">Hata oluştu</string>
+    <string name="save">Kaydet</string>
+    <string name="next">Sonraki</string>
+    <string name="complete">Bitir</string>
+
+    <!--Create Game Fragment -->
+    <string name="add_name">Ekran adı</string>
+    <string name="add_explanation">Açıklama ekle</string>
+    <string name="add_question">Soru ekle</string>
+    <string name="add_answer">Cevabı gir</string>
+    <string name="add_start_image">Başlangıç resmi seç</string>
+    <string name="add_end_image">Bitiş resmi seç</string>
+    <string name="empty_area_error">Bölümü geçmen için cevap yazman gerekiyor</string>
+    <string name="false_answer_text">Maalesef yanlış cevap. Bir dahakine daha dikkatli olmaya çalış. Doğru cevap: </string>
+    <!-- Home Fragment -->
+    <string name="play_button">OYNA</string>
+    <string name="create_button">Kendi Modülünü Oluştur</string>
+    <string name="sound_off">Sesi Kapat</string>
+    <string name="sound_on">Sesi Aç</string>
+
+    <!-- Map Fragment Chapters -->
+    <string name="ch_cell">Hücre</string>
+    <string name="ch_mitosis">Mitoz</string>
+    <string name="ch_mayosis">Mayoz</string>
+    <string name="ch_reproduction">Hayvanlarda Üreme</string>
+    <string name="ch_force">Kuvvet</string>
+    <string name="ch_energy">Enerji</string>
+    <string name="ch_lens">Mercek</string>
+    <string name="ch_optic">Optik</string>
+    <string name="ch_recycle">Geri Dönüşüm</string>
+    <string name="ch_element">Element</string>
+    <string name="ch_substance">Bileşik</string>
+    <string name="ch_solution">Çözelti</string>
+    <string name="ch_select_warning">Demo versiyonda sadece Fizik-Kuvvet içeriği açıktır.</string>
+
+    <!-- Questions -->
+    <string name="question1_title">Dünyanın İlk Saplı Baltası</string>
+    <string name="question1_time">Eski (paleolitik) Taş Devri</string>
+    <string name="question1_place">Kuzey Avustralya</string>
+    <string name="question1_context">
+        Baltalar avcı-toplayıcı toplumlarda çok önemli aletlerdi.
+        Kendilerini koruma ve çevredeki malzemeleri kesip kullanabilmek için çokça kullanılırdı.
+        Günümüzde keşfedilen en eski saplı balta Avustralya\'nın Batısında bulundu.
+        Karbon analizine göre yaklaşık 50000 yıl önce kullanılan bu balta yeni bir arkeolojik keşif olmadığı sürece dünya tarihinin ilk saplı baltası.
+        Bir baltanın bir ağacı kesebilmesini, sivriltilmiş ucunun uyguladığı basınç sağlar.
+        Bir cismi ne kadar sivriltirseniz o kadar keskin olur, çünkü basınç kuvvet ile doğru, yüzey alanı ile ters orantılıdır.
+        Resimde gördüğün Avustralya\'daki bu ağacın kesilmesi için 100 N/m&lt;sup&gt;&lt;small&gt;2&lt;/small&gt;&lt;/sup&gt; lik bir basınç uygulamaız gerekiyor.
+    </string>
+    <string name="question1_question">Peki bu ağacı kesmek için 1 N\'luk bir kuvvet uygulayabiliyorsak, baltanın yüzey alanı kaç cm&lt;sup&gt;&lt;small&gt;2&lt;/small&gt;&lt;/sup&gt; olmalıdır?</string>
+    <string name="question1_answer">100</string>
+
+    <string name="question2_title">Kardaki Raket</string>
+    <string name="question2_time">MÖ 3800-3700</string>
+    <string name="question2_place">Kuzey İtalya</string>
+    <string name="question2_context">
+        Karlı iklimin hakim olduğu bölgelerde yürüyebilmek için ağırlığı kar yüzeyine yayıp batmayı engellemek için ayaktan daha geniş bir yüzeye sahip olan kar ayakkabısı kullanılır.
+        Keşfedilen en eski kar ayakkabısı 3500 yaşındadır.
+        Huş ağacı ve sicimden örülmüş olan bu kar ayakkabısı İtalya -Avusturya sınırında bulunmuştur.
+        Kar ayakkabısının batmaması yine uygulanan basınç ile alakalıdır.
+        Yüzey alanı daha dar olan ayakkabılar, kar yüzeyine daha fazla basınç uyguladığı için bu hassas zemin kolaylıkla çöker.
+    </string>
+    <string name="question2_question">
+        Peki, 48 kg olan bir insan karda batmamak için 600 cm&lt;sup&gt;&lt;small&gt;2&lt;/small&gt;&lt;/sup&gt;lik bir yüzeye ihtiyaç duyuyorsa,
+        80 kg kütleye sahip bir insan kaç cm&lt;sup&gt;&lt;small&gt;2&lt;/small&gt;&lt;/sup&gt;\'lik bir yüzeye ihtiyaç duyar?
+    </string>
+    <string name="question2_answer">1000</string>
+
+    <string name="question3_title">Fenikeliler(Kenaniler)</string>
+    <string name="question3_time">MÖ 1200-330</string>
+    <string name="question3_place">Akdeniz</string>
+    <string name="question3_context">
+        Fenikeliler Antik çağda yaşamış deniz ticareti ile ünlü akdenizli bir kavimdir.
+        Deniz ticareti yaparken yüklerini kayıt altına almak için alfabeyi bulmuşlardır, günümüzün modern alfabeleri buradan gelişmiştir.
+        Ayrıca Fenikeliler dünyada ilk defa kırmızı/mor rengi kumaşlarda elde etmeyi başarmışlardır.
+        Bu kumaşları inşa ettikleri gemiler sayesinde uzak diyarlara götürebilmişlerdir.
+        Koca bir gemiyi inşa etmeden önce bu geminin birebir boyutlarında maketini yapmak faydalı olabilir.
+        Böylece sudaki davranışlarını gözlemleyebilir, dalgalara ne kadar dayanıklı olduğunu görebiliriz.
+        Geminin maketini yaparak şekline bağlı olarak olması gereken ağırlığı da hesaplayabiliriz, böylece uygun olan ağacı seçmemiz kolaylaşır.
+    </string>
+    <string name="question3_question">
+        Peki, maket gemimizin suda kapladığı hacim 300 cm&lt;sup&gt;&lt;small&gt;3&lt;/small&gt;&lt;/sup&gt;
+        ve suyun yoğunluğu 1g/cm&lt;sup&gt;&lt;small&gt;3&lt;/small&gt;&lt;/sup&gt; ise bu maket geminin kütlesi en az kaç gramdır?
+    </string>
+    <string name="question3_answer">300</string>
+
+    <string name="question4_title">İlk Kadın Olimpiyat Şampiyonu Kyneska</string>
+    <string name="question4_time">MÖ 396</string>
+    <string name="question4_place">Yunanistan</string>
+    <string name="question4_context">
+        Olimpiyat oyunları ilk MÖ 776 yılında düzenlendi.
+        İlk olimpik oyunlar cirit atma, atletizm (koşu), uzun atlama, disk atma, atlı koşu, güreş ve bokstu.
+        Sadece erkeklerin yarıştığı oyunlarda Sparta Prensesi Kyneska atlı yarışlarda birinci gelerek dünya tarihinde önemli bir rol oynamaktadır.
+        Atlar insanın en eski dostlarından biridir ve yarışlar dışında tarımda ve ulaşımda da bize yardım etmişlerdir.
+        Şu anda da bir güç birimi olarak kullanılan beygir gücü bir atın 75 kg\'lık bir cismi 1 metre boyunca 1 saniyede çekmesi için gereken gücü temsil eder.
+    </string>
+    <string name="question4_question">Peki Kyneska\'nın o dönemki yarış arabası kendisi de dahil 300 kg ise 50 metrelik parkuru 4 beygir kaç saniyede tamamlamıştır?</string>
+    <string name="question4_answer">50</string>
+
+    <string name="question5_title">Sümerler ve Tekerin İcadı</string>
+    <string name="question5_time">MÖ 4000 - MÖ 2000</string>
+    <string name="question5_place">Güney Mezopotamya</string>
+    <string name="question5_context">
+        Tarihin Sümerler ile başladığı söylenmektedir.
+        Bunun sebebi Sümerler, günümüz medeniyetleri için çok önemli buluşlar ortaya koymuştur.
+        İlk yazıyı Sümerler bulmuştur,çivi yazısı ile kil tabletlere işlemişlerdir.
+        Tekerleğin icadı, ilk araçlar da yine bu medeniyetin icatlarındandır.
+        Ayrıca astronomi, matematik ve geometrinin temellerini atmışlardır.
+        Yılbaşı ağacı süsleme, evlilik yüzüğü, nazar boncuğu da Sümerlerde görülmüştür.
+        Sümerler bulunduğu coğrafya sayesinde tarımda da çok ilerlemiş, at ve öküzlerin çekebileceği güzel araçlar yapmışlardır.
+        Bir önceki soruda beygir gücünden bahsetmiştik, öküzler atlara göre çok daha güçlü hayvanlardır.
+    </string>
+    <string name="question5_question">Resimdeki iki öküz 600 kg\'lık yükü 60 metre boyunca 60 saniyede geçebiliyorsa, bir öküz kaç at gücündedir?</string>
+    <string name="question5_answer">4</string>
+
+
+    <!-- Select Topic Fragment-->
+    <string name="select_topic_header">Konu Seç</string>
+
+    <!--Leave Game Dialog -->
+    <string name="yes">EVET</string>
+    <string name="no">HAYIR</string>
+    <string name="are_you_sure">Oyunu gerçekten terk etmek istiyor musun?</string>
+
+</resources>

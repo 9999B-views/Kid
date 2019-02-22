@@ -1,0 +1,73 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:1:1-34:12
+	package
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:2:2-26
+		INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:4:2-27
+		INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:3:2-25
+		INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:7:2-8:5
+INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:7:2-8:5
+INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:7:2-8:5
+INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:7:2-8:5
+INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:7:2-8:5
+	android:targetSdkVersion
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:7:12-41
+		INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:7:2-8:5
+		INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:10:2-78
+	android:name
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:10:19-75
+application
+ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:12:2-32:16
+	android:label
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:16:3-35
+	android:hardwareAccelerated
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:14:3-37
+	android:icon
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:15:3-39
+	android:allowBackup
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:13:3-29
+	android:theme
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:17:3-34
+activity#com.dd.painter.PlayActivity
+ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:20:3-30:14
+	android:label
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:23:4-36
+	android:uiOptions
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:24:4-48
+	android:theme
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:22:4-46
+	android:name
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:21:4-46
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:26:4-29:20
+action#android.intent.action.MAIN
+ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:27:5-59
+	android:name
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:27:15-56
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:28:5-65
+	android:name
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Painter\app\src\main\AndroidManifest.xml:28:15-62

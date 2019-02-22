@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightpurple"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="50dp"
+        android:src="@color/white" />
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtNames"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="casual"
+            android:paddingEnd="18dp"
+            android:paddingStart="20dp"
+            android:text="TextView"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtTimestamp"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="casual"
+            android:paddingEnd="18dp"
+            android:paddingStart="20dp"
+            android:text="TextView"
+            android:textAlignment="textEnd"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtScores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout"
+        android:layout_margin="5dp"
+        android:paddingStart="20dp"
+        android:paddingTop="8dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtScores"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="150dp"
+        android:background="@drawable/confusing_shape"
+        android:fontFamily="casual"
+        android:padding="18dp"
+        android:text="@string/back"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+</RelativeLayout>

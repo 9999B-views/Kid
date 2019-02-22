@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/cherryscene"
+  >
+
+<TableLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:gravity="center"
+	android:layout_weight="1"
+	android:stretchColumns="*">
+	
+	<TableRow>
+	
+	    <ImageView    
+	   	android:layout_height="fill_parent"
+		android:id="@+id/balloon_icon"     
+		android:gravity="center"    
+		android:layout_weight="1"       
+		android:src="@drawable/balloon_a" />	
+		
+	    <ImageView    
+	   	android:layout_height="fill_parent"
+		android:id="@+id/question_icon"     
+		android:gravity="center"    
+		android:layout_weight="1"       
+		android:src="@drawable/question" />			
+	</TableRow>		
+	
+</TableLayout>
+
+<TableLayout android:layout_width="fill_parent" android:gravity="bottom" android:id="@+id/bottomBar" android:layout_height="wrap_content" android:stretchColumns="1" android:layout_weight="0">
+    <TableRow>
+        <ImageButton android:layout_width="wrap_content" android:id="@+id/prevButton" android:layout_height="wrap_content" android:src="@drawable/prev" android:background="@null"></ImageButton>
+        <TextView android:text="Apple" android:visibility="invisible" style="@style/CaptionFont" android:layout_width="fill_parent" android:gravity="center" android:id="@+id/bottomCaption"></TextView>
+        <ImageButton android:layout_width="wrap_content" android:id="@+id/nextButton" android:layout_height="wrap_content" android:src="@drawable/next" android:background="@null"></ImageButton>
+    </TableRow>
+</TableLayout>
+
+</LinearLayout>
+    

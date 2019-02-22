@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/chapter_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/caveman01" />
+
+    <LinearLayout
+        android:id="@+id/timeplace_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/unit10"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical"
+        android:translationZ="@dimen/unit100">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/unit8"
+            android:tint="@color/white"
+            app:backgroundTint="@color/colorAccent"
+            app:srcCompat="@drawable/left_arrow" />
+
+        <TextView
+            android:id="@+id/date_text"
+            style="@style/GameExtraInfoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/unit8"
+            android:layout_marginBottom="@dimen/unit8"
+            android:textStyle="italic"
+            tools:text="Time" />
+
+        <TextView
+            android:id="@+id/place_text"
+            style="@style/GameExtraInfoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/unit8"
+            android:textStyle="italic"
+            tools:text="Place" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/unit6"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/mali_family"
+            android:text="@string/next"
+            android:textAllCaps="true"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/unit28"
+            android:textStyle="bold" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/unit14"
+            android:tint="@color/white"
+            app:backgroundTint="@color/colorAccent"
+            app:srcCompat="@drawable/right_arrow" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/complete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/unit6"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/mali_family"
+            android:text="@string/next"
+            android:textAllCaps="true"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/unit28"
+            android:textStyle="bold" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/unit14"
+            android:tint="@color/white"
+            app:backgroundTint="@color/colorAccent"
+            app:srcCompat="@drawable/ic_done" />
+    </LinearLayout>
+
+</RelativeLayout>

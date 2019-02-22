@@ -1,0 +1,19 @@
+#Internal package file, do not edit.
+#Wed Feb 20 16:42:50 SGT 2019
+1.base=C\:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\assets\\debug
+2.path=about/index.html
+0.baseType=DIRECTORY
+3.baseType=DIRECTORY
+2.base=C\:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\assets\\debug
+3.set=ASSET
+2.set=ASSET
+1.baseType=DIRECTORY
+3.path=library/library.json
+count=4
+1.set=ASSET
+0.path=classes.dex
+3.base=C\:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\assets\\debug
+0.set=DEX
+0.base=C\:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+2.baseType=DIRECTORY
+1.path=library/book_animals/balloons.png

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Dialog-->
+    <dimen name="dialog_margin_top_bottom">40dp</dimen>
+    <dimen name="dialog_margin_left_right">32dp</dimen>
+    <dimen name="size_close">48dp</dimen>
+    <dimen name="size_back_next">48dp</dimen>
+
+    <!--Question-->
+    <dimen name="question_margin_left_right">90dp</dimen>
+    <dimen name="question_margin_top">30dp</dimen>
+    <dimen name="question_close_top">8dp</dimen>
+    <dimen name="question_margin_right">8dp</dimen>
+    <dimen name="margine_top">70dp</dimen>
+    <dimen name="board_padding">10dp</dimen>
+    <dimen name="card_margin">10dp</dimen>
+    <dimen name="popup_settings_width">300dp</dimen>
+    <dimen name="popup_settings_height">200dp</dimen>
+    <dimen name="popup_won_width">240dp</dimen>
+    <dimen name="popup_won_height">300dp</dimen>
+
+
+    <!--GAME-->
+    <dimen name="size_button_game">44dp</dimen>
+    <dimen name="img_game_margin">5dp</dimen>
+    <dimen name="screen_padding">16dp</dimen>
+    <dimen name="logo_padding">8dp</dimen>
+
+    <!-- size main activity-->
+    <dimen name="function_button_size">48dp</dimen>
+    <dimen name="button_language_margin_right">64dp</dimen>
+    <dimen name="dialog_button_size">48dp</dimen>
+    <dimen name="dialog_button_padding">16dp</dimen>
+    <dimen name="dialog_margin_vertical">64dp</dimen>
+    <dimen name="dialog_margin_horizontal">96dp</dimen>
+
+    <!--PHONE-->
+    <dimen name="button_close">60dp</dimen>
+    <dimen name="rl_nhanbietchu_margin">30dp</dimen>
+    <dimen name="back_next_dialog_width">60dp</dimen>
+    <dimen name="back_next_dialog_height">100dp</dimen>
+    <dimen name="nbc_close_top_right">15dp</dimen>
+    <dimen name="back_next_margin">15dp</dimen>
+
+    <dimen name="image_with">400dp</dimen>
+    <dimen name="image_height">400dp</dimen>
+    <dimen name="dialog_corner_out_radius">40dp</dimen>
+    <dimen name="dialog_corner_mid_radius">35dp</dimen>
+    <dimen name="dialog_corner_in_radius">32dp</dimen>
+    <dimen name="outer_border_width">5dp</dimen>
+    <dimen name="inner_border_width">3dp</dimen>
+
+
+    <dimen name="size_button_hoc_chu">48dp</dimen>
+    <dimen name="size_text">25sp</dimen>
+
+    <!--FONT SIZE-->
+    <dimen name="font_size">40dp</dimen>
+
+    <dimen name="square_button_padding">18dp</dimen>
+    <dimen name="square_button_border">6dp</dimen>
+    <dimen name="round_button_padding">6dp</dimen>
+    <dimen name="btn_round_size">60dp</dimen>
+
+    <dimen name="menu_margin">8dp</dimen>
+    <dimen name="game_frame_width">6dp</dimen>
+    <dimen name="game_menu_width">100dp</dimen>
+
+    <dimen name="life_size">30dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="keypad_size">42dp</dimen>
+    <dimen name="dialog_width">400dp</dimen>
+    <dimen name="dialog_height">250dp</dimen>
+
+    <!--GAME-->
+    <dimen name="textSize">25sp</dimen>
+</resources>

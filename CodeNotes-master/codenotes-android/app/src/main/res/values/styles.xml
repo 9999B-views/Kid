@@ -1,0 +1,20 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/nunitofamily</item>
+    </style>
+    <style name="CardTextName" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">@color/textColorDark</item>
+    </style>
+
+    <style name="CardTextDetail" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/textColorLight</item>
+    </style>
+
+    <style name="LinkText" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+</resources>

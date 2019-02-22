@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/con1"
+    >
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/boder_double_selector"
+            android:padding="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="W,"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline_h1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.333" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.666" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.1666" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.333" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.4999" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.66667" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.8333" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:weightSum="10"
+                app:layout_constraintBottom_toTopOf="@+id/guideline_h2"
+                app:layout_constraintEnd_toStartOf="@+id/guideline4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/guideline_h1">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/img_shape"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/shape_ico"
+
+
+                    app:riv_corner_radius="15dp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tv_shape"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:text="Hình khối"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:weightSum="10"
+                app:layout_constraintBottom_toTopOf="@+id/guideline_h1"
+                app:layout_constraintEnd_toStartOf="@+id/guideline5"
+                app:layout_constraintStart_toEndOf="@+id/guideline4"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/imageView_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/number_ico"
+
+
+                    app:riv_corner_radius="15dp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tvnumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:text="Số dếm"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:weightSum="10"
+                app:layout_constraintBottom_toTopOf="@+id/guideline_h1"
+                app:layout_constraintDimensionRatio=""
+                app:layout_constraintEnd_toStartOf="@+id/guideline6"
+                app:layout_constraintStart_toEndOf="@+id/guideline5"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.56">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/imageView_color"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/color_ico"
+
+
+                    app:riv_corner_radius="15dp" />
+
+                <TextView
+                    android:id="@+id/tv_color"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:text="Màu sắc"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:weightSum="10"
+                app:layout_constraintBottom_toTopOf="@+id/guideline_h1"
+                app:layout_constraintDimensionRatio=""
+                app:layout_constraintEnd_toStartOf="@+id/guideline7"
+                app:layout_constraintStart_toEndOf="@+id/guideline6"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.56">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/img_fruid"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/fruit_ico"
+
+
+                    app:riv_corner_radius="15dp" />
+
+                <TextView
+                    android:id="@+id/tv_fruid"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:text="Trái cây"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    tools:text="Trái cây" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:weightSum="10"
+                app:layout_constraintBottom_toTopOf="@+id/guideline_h1"
+                app:layout_constraintDimensionRatio=""
+                app:layout_constraintEnd_toEndOf="@+id/guideline8"
+                app:layout_constraintStart_toEndOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/img_animal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/animal_ico"
+
+
+                    app:riv_corner_radius="15dp" />
+
+                <TextView
+                    android:id="@+id/tv_animal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:text="Động vậy"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    tools:text="Động vật " />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:weightSum="10"
+                app:layout_constraintBottom_toTopOf="@+id/guideline_h1"
+                app:layout_constraintDimensionRatio=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/guideline8"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/img_vegertable"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/vegetable_ico"
+
+
+                    app:riv_corner_radius="15dp" />
+
+                <TextView
+                    android:id="@+id/tv_vegertable"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:text="Rau củ"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    tools:text="Rau củ" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:weightSum="10"
+                app:layout_constraintBottom_toTopOf="@+id/guideline_h1"
+                app:layout_constraintEnd_toStartOf="@+id/guideline4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+
+                    android:id="@+id/img_alphabet"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/alphabet_ico"
+
+
+                    app:riv_corner_radius="15dp" />
+
+                <TextView
+                    android:id="@+id/tv_alphabet"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:text="Chữ cái"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:weightSum="10"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/guideline4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/guideline_h2">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/img_kitchen"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/kitchen_ico"
+
+
+                    app:riv_corner_radius="15dp" />
+
+                <TextView
+                    android:id="@+id/tv_kitchen"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:text="Bếp"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:weightSum="10"
+                app:layout_constraintBottom_toTopOf="@+id/guideline_h2"
+                app:layout_constraintEnd_toStartOf="@+id/guideline5"
+                app:layout_constraintStart_toEndOf="@+id/guideline4"
+                app:layout_constraintTop_toTopOf="@id/guideline_h1">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/img_app"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/app_ico"
+
+
+                    app:riv_corner_radius="15dp" />
+
+                <TextView
+                    android:id="@+id/tv_app"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:text="Đồ gia dụng"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:weightSum="10"
+                app:layout_constraintBottom_toTopOf="@+id/guideline_h2"
+                app:layout_constraintEnd_toStartOf="@+id/guideline6"
+                app:layout_constraintStart_toEndOf="@+id/guideline5"
+                app:layout_constraintTop_toTopOf="@id/guideline_h1">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/img_transp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/transp_ico"
+
+
+                    app:riv_corner_radius="15dp" />
+
+                <TextView
+                    android:id="@+id/tv_transp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:text="Giao thông"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />?
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:weightSum="10"
+                app:layout_constraintBottom_toTopOf="@+id/guideline_h2"
+                app:layout_constraintDimensionRatio=""
+                app:layout_constraintEnd_toStartOf="@+id/guideline7"
+                app:layout_constraintStart_toEndOf="@+id/guideline6"
+                app:layout_constraintTop_toTopOf="@id/guideline_h1"
+                app:layout_constraintVertical_bias="0.56">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/img_garden"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/garden_ico"
+
+
+                    app:riv_corner_radius="15dp" />
+
+                <TextView
+                    android:id="@+id/tv_garden"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:text="Vườn"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:weightSum="10"
+                app:layout_constraintBottom_toTopOf="@+id/guideline_h2"
+                app:layout_constraintDimensionRatio=""
+                app:layout_constraintEnd_toEndOf="@+id/guideline8"
+                app:layout_constraintStart_toEndOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="@id/guideline_h1"
+                app:layout_constraintVertical_bias="0.0">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/img_clothing"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/clothing_ico"
+
+
+                    app:riv_corner_radius="15dp" />
+
+                <TextView
+                    android:id="@+id/tv_clothing"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:text="Quần áo"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout12"
+                android:layout_width="0dp"
+
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:weightSum="10"
+                app:layout_constraintBottom_toTopOf="@+id/guideline_h2"
+                app:layout_constraintDimensionRatio=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/guideline8"
+                app:layout_constraintTop_toTopOf="@id/guideline_h1"
+                app:layout_constraintVertical_bias="0.0">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/img_school"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/school_ico"
+
+
+                    app:riv_corner_radius="15dp" />
+
+                <TextView
+                    android:id="@+id/tv_school"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:text="Trường học"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:weightSum="10"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/guideline5"
+                app:layout_constraintStart_toEndOf="@+id/guideline4"
+                app:layout_constraintTop_toTopOf="@id/guideline_h2">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/img_sport"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/sport_ico"
+
+
+                    app:riv_corner_radius="15dp" />
+
+                <TextView
+                    android:id="@+id/tv_sport"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:text="Thể thao"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:weightSum="10"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio=""
+                app:layout_constraintEnd_toStartOf="@+id/guideline6"
+                app:layout_constraintStart_toEndOf="@+id/guideline5"
+                app:layout_constraintTop_toTopOf="@id/guideline_h2"
+                app:layout_constraintVertical_bias="0.56">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/img_tool"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/tool_ico"
+
+
+                    app:riv_corner_radius="15dp" />
+
+                <TextView
+                    android:id="@+id/tv_tool"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:text="Dụng cụ"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:weightSum="10"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio=""
+                app:layout_constraintEnd_toStartOf="@+id/guideline7"
+                app:layout_constraintStart_toEndOf="@+id/guideline6"
+                app:layout_constraintTop_toTopOf="@id/guideline_h2"
+                app:layout_constraintVertical_bias="0.56">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/img_music"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/music_ico"
+
+
+                    app:riv_corner_radius="15dp" />
+
+                <TextView
+                    android:id="@+id/tv_music"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:text="Nhạc cụ"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:weightSum="10"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio=""
+                app:layout_constraintEnd_toEndOf="@+id/guideline8"
+                app:layout_constraintStart_toEndOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="@id/guideline_h2">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/img_body"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/body_ico"
+
+
+                    app:riv_corner_radius="15dp" />
+
+                <TextView
+                    android:id="@+id/tv_body"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:text="Bộ phận cơ thể "
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:weightSum="10"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/guideline8"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout12">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/img_job"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/job_ico"
+
+
+                    app:riv_corner_radius="15dp" />
+
+                <TextView
+                    android:id="@+id/tv_job"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:text="Nghề nghiệp"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </android.support.constraint.ConstraintLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/close"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

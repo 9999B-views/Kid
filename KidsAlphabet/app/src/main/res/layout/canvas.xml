@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    
+ <com.kidsalphabet.CanvasView
+    android:id="@+id/drawingCanvas"  android:tag="myCanvas"
+    android:layout_weight="1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />    
+    
+<TableLayout android:background="@color/gray_color" android:layout_width="fill_parent" android:gravity="bottom" android:id="@+id/bottomBar" android:layout_height="wrap_content" android:stretchColumns="1" android:layout_weight="0">
+    <TableRow>
+        <ImageButton android:layout_width="wrap_content" android:id="@+id/prevButton" android:layout_height="wrap_content" android:src="@drawable/prev" android:background="@null"></ImageButton>
+        
+        <LinearLayout
+			  xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="horizontal"
+			  android:gravity="center"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent">
+  		
+  			<ImageButton
+			    android:id="@+id/btnOrange"
+			    android:padding="10dip"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:src="@drawable/pencil"
+			    android:background="@color/orange_color" />
+			    
+  			<ImageButton
+			    android:id="@+id/btnGreen"
+			    android:padding="10dip"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:src="@drawable/pencil"
+			    android:background="@color/green_color" />
+			    
+			 <ImageButton
+			    android:id="@+id/btnYellow"
+			    android:padding="10dip"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:src="@drawable/pencil"
+			    android:background="@color/yellow_color" />
+			    
+			 <ImageButton
+			    android:id="@+id/btnBlue"
+			    android:padding="10dip"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:src="@drawable/pencil"
+			    android:background="@color/blue_color" />			    
+  		
+  		</LinearLayout>
+        
+        <ImageButton android:layout_width="wrap_content" android:id="@+id/nextButton" android:layout_height="wrap_content" android:src="@drawable/next" android:background="@null"></ImageButton>
+    </TableRow>
+</TableLayout>    
+</LinearLayout>

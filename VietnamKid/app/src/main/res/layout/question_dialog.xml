@@ -1,0 +1,145 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="24dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/boder_double_selector">
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline_ver1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline_ver2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline_ver3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="1" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline_hoz_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.08" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline_ver_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.4" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline_ver_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.6" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline_hoz_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.92" />
+
+        <ImageView
+            android:id="@+id/img_question1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/boder_hocchu_selector"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toTopOf="@+id/guideline_ver2"
+            app:layout_constraintDimensionRatio="w,0.9:1"
+            app:layout_constraintEnd_toStartOf="@+id/guideline_ver_2"
+            app:layout_constraintStart_toStartOf="@+id/guideline_hoz_1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/img_question2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/boder_hocchu_selector"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toTopOf="@+id/guideline_ver2"
+            app:layout_constraintDimensionRatio="w,0.9:1"
+            app:layout_constraintEnd_toStartOf="@+id/guideline_hoz_2"
+            app:layout_constraintStart_toStartOf="@+id/guideline_ver_3"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/img_question3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/boder_hocchu_selector"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toTopOf="@+id/guideline_ver3"
+            app:layout_constraintDimensionRatio="w,0.9:1"
+            app:layout_constraintEnd_toStartOf="@+id/guideline_ver_2"
+            app:layout_constraintHorizontal_bias="0.534"
+            app:layout_constraintStart_toStartOf="@+id/guideline_hoz_1"
+            app:layout_constraintTop_toTopOf="@+id/guideline_ver2" />
+
+        <ImageView
+            android:id="@+id/img_question4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/boder_hocchu_selector"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toTopOf="@+id/guideline_ver3"
+            app:layout_constraintDimensionRatio="w,0.9:1"
+            app:layout_constraintEnd_toStartOf="@+id/guideline_hoz_2"
+            app:layout_constraintStart_toStartOf="@+id/guideline_ver_3"
+            app:layout_constraintTop_toTopOf="@+id/guideline_ver2" />
+
+        <ImageButton
+            android:id="@+id/btn_soundAG"
+            android:layout_width="@dimen/size_button_hoc_chu"
+            android:layout_height="@dimen/size_button_hoc_chu"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/soundon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/img_question4"
+            app:layout_constraintStart_toEndOf="@+id/img_question3" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <ImageButton
+        android:id="@+id/btn_Close_Question"
+        android:layout_width="@dimen/size_close"
+        android:layout_height="@dimen/size_close"
+        android:layout_gravity="right"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/close" />
+</FrameLayout>

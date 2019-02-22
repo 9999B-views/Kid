@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="NavigationButtonStyle" parent="android:Widget.Button">
+        <item name="android:layout_margin">@dimen/navigation_button_margin</item>
+        <item name="android:background">@drawable/bg_button_navigation</item>
+    </style>
+
+</resources>

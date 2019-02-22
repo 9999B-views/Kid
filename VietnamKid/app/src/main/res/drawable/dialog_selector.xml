@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+
+            <padding
+                android:bottom="5dp"
+                android:left="5dp"
+                android:right="5dp"
+                android:top="5dp" />
+
+            <solid android:color="@color/outer_border_dialog_color" />
+            <corners android:radius="@dimen/dialog_corner_out_radius" />
+
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+
+            <padding
+                android:bottom="3dp"
+                android:left="3dp"
+                android:right="3dp"
+                android:top="3dp" />
+
+            <solid android:color="@color/inner_border_dialog_color" />
+            <corners android:radius="@dimen/dialog_corner_mid_radius" />
+
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/dialog_hoc_chu_background" />
+            <corners android:radius="@dimen/dialog_corner_in_radius" />
+        </shape>
+    </item>
+
+
+</layer-list>

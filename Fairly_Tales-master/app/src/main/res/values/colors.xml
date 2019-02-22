@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#850073</color>
+    <color name="colorPrimaryDark">#57004b</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorTaleTitle">#F50057</color>
+    <color name="colorSynopsisTale">#000000</color>
+    <color name="colorSplash">#ffffff</color>
+</resources>

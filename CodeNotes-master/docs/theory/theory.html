@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Code Notes Programlama Platformu">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Code Notes</title>
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="../images/favicon_round.png">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="../images/favicon_round.png">
+
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <link rel="shortcut icon" href="../images/favicon_round.png">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-orange.min.css">
+    <link rel="stylesheet" href="theory_styles.css">
+    <style>
+        #view-source {
+            position: fixed;
+            display: block;
+            right: 0;
+            bottom: 0;
+            margin-right: 40px;
+            margin-bottom: 40px;
+            z-index: 900;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="demo-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
+        <header class="demo-header mdl-layout__header mdl-layout__header--scroll mdl-color--grey-100 mdl-color-text--grey-800">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-title">Code Notes - Akademik</span>
+                <div class="mdl-layout-spacer"></div>
+            </div>
+        </header>
+        <div class="demo-ribbon"></div>
+        <main class="demo-main mdl-layout__content">
+            <div class="demo-container mdl-grid">
+                <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+                <div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+                    <div class="demo-crumbs mdl-color-text--grey-500">
+                        Bu yazı şimdilik sadece İngilizce olarak mevcuttur. En yakın zamanda Türkçe çevirisi eklenecektir.
+                    </div>
+                    <h3>Theory and Design Behind Code Notes</h3>
+                    <p>
+                        Programming has become an essential skill for today’s education. There are different constructivist methods to create learning activities using technology to build programming skills and improve computational thinking abilities, Experts suggest that these learning activities, which is supported by active interaction between education material and children increases the collaboration in classrooms. To foster this interaction, one method can be making learning process more playful. For instance, Scratch (scratch.mit.edu) is a free block-based  language that creates a game environment for code education, however it does not include tangible components. Previous studies suggest that playfulness can be rendered more effective with tangible tools. Therefore, programming environments like Leg o Mindstorms (mindstorms.lego.com) and Google Bloks (projectbloks.withgoogle.com) were developed to create tangible and playful environments for code-learning. Yet, these solutions with tangible blocks are quite costly, and this prevents them to be used by the majority. As a result, we believe that a low-cost tool is needed to reach children worldwide.
+                    </p>
+                    <p>
+                        In this context, we have developed an open-source tangible programming tool, Code Notes, which is comprised of an Android app and programming cardboards. (kuar.ku.edu.tr/portfolio/code-notes/) These cardboards, which is seen in Figure 1, correspond to blocks that can be combined to create different kinds of algorithms in block-based languages. Learners can order them one under another to create meaningful. When the ordering is done, learners scan these cardboards by the real-time camera compiler that is included in the Android app. Upon scanning, Code Notes App recognizes the blocks and compile them into an action that can trigger different events (i.e. drawing a tree) as seen in Figure 3. Programming cardboards are printable blocks, so they are low-cost and accessible as an online PDF file. In addition to the cardboards and app, we also created online tutorials to teach how to use these cards and build essential programming blocks with Code Notes.
+                    </p>
+                    <p>
+                        We used Code Notes in our 6-week voluntary project to understand if children enjoy it and if this tool meets our aim of teaching coding to children. Therefore, we designed a curriculum for this project and tried to observe the effect of Code Notes on children’s interaction with the tool and classroom environment. Previous studies suggest that children are more comfortable with the mobile learning, compared to using computers. Parallel with this, our experience during the teaching with this tool shows that students were eager to learn with smartphones and tangible components. 
+                    </p>
+                </div>
+            </div>
+            <footer class="demo-footer mdl-mini-footer">
+                <div class="mdl-mini-footer--bottom-section">
+                    <p>
+                        <a href="https://play.google.com/store/apps/details?id=alpay.com.codenotesinteractive">
+                            <img height="80px" src="../images/play_banner.png">
+                        </a>
+                        <a style="margin-right: 20px" href="../terms_and_conditions.html">Terms And Conditions</a>
+                        <a href="../privacy_policy.html">Privacy Policy</a>
+                    </p>
+                </div>
+            </footer>
+        </main>
+    </div>
+    <a href="https://github.com/asabuncuoglu13/InteractiveExperiments" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">Github'da İncele</a>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</body>
+</body>
+
+</html>

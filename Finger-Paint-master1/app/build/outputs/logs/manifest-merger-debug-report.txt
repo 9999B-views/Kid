@@ -1,0 +1,45 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Finger-Paint-master1\app\src\main\AndroidManifest.xml:3:1-20:12
+INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Finger-Paint-master1\app\src\main\AndroidManifest.xml:3:1-20:12
+INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Finger-Paint-master1\app\src\main\AndroidManifest.xml:3:1-20:12
+INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Finger-Paint-master1\app\src\main\AndroidManifest.xml:3:1-20:12
+INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Finger-Paint-master1\app\src\main\AndroidManifest.xml:3:1-20:12
+INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Finger-Paint-master1\app\src\main\AndroidManifest.xml:3:1-20:12
+INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Finger-Paint-master1\app\src\main\AndroidManifest.xml:3:1-20:12
+	package
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Finger-Paint-master1\app\src\main\AndroidManifest.xml:4:7-32
+		INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Finger-Paint-master1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Finger-Paint-master1\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Finger-Paint-master1\app\src\main\AndroidManifest.xml:6:7-32
+		INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Finger-Paint-master1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Finger-Paint-master1\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Finger-Paint-master1\app\src\main\AndroidManifest.xml:3:11-69
+	android:versionCode
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Finger-Paint-master1\app\src\main\AndroidManifest.xml:5:7-30
+		INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Finger-Paint-master1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Finger-Paint-master1\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Finger-Paint-master1\app\src\main\AndroidManifest.xml:9:2-18:16
+	android:label
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Finger-Paint-master1\app\src\main\AndroidManifest.xml:9:45-77
+	android:icon
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Finger-Paint-master1\app\src\main\AndroidManifest.xml:9:15-44
+activity#nt.finger.paint.FingerPaint
+ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Finger-Paint-master1\app\src\main\AndroidManifest.xml:10:3-16:14
+	android:label
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Finger-Paint-master1\app\src\main\AndroidManifest.xml:11:7-39
+	android:name
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Finger-Paint-master1\app\src\main\AndroidManifest.xml:10:13-40
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Finger-Paint-master1\app\src\main\AndroidManifest.xml:12:3-15:20
+action#android.intent.action.MAIN
+ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Finger-Paint-master1\app\src\main\AndroidManifest.xml:13:5-57
+	android:name
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Finger-Paint-master1\app\src\main\AndroidManifest.xml:13:13-54
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Finger-Paint-master1\app\src\main\AndroidManifest.xml:14:5-65
+	android:name
+		ADDED from C:\Users\Documents\Downloads\Compressed\ADMOB\KIDS\Finger-Paint-master1\app\src\main\AndroidManifest.xml:14:15-62

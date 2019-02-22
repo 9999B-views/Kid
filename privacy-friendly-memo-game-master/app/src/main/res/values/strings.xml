@@ -1,0 +1,98 @@
+<resources>
+    <!-- Shared -->
+    <string name="app_name">Memo Game</string>
+    <string name="app_name_long">Privacy Friendly Memo Game</string>
+    <string name="button_ok">Okay</string>
+    <string name="button_help">View Help</string>
+
+    <!-- menu drawer -->
+    <string name="menu_menu">Main menu</string>
+    <string name="menu_highscore">Highscore</string>
+    <string name="menu_highscore_easy">Highscore Easy</string>
+    <string name="menu_highscore_moderate">Highscore Moderate</string>
+    <string name="menu_highscore_hard">Highscore Hard</string>
+    <string name="menu_statistics">Statistics</string>
+    <string name="menu_settings">Deck choice</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_about">About</string>
+
+    <!-- menu drawer statistics -->
+    <string name="carddesign_displayname_first">TuX Deck</string>
+    <string name="carddesign_displayname_second">Animal Deck</string>
+    <string name="carddesign_displayname_custom">Custom Deck</string>
+    <string name="false_selected">False selected:</string>
+    <!-- menu drawer highscore -->
+    <string name="reset_highscore">Reset all</string>
+
+    <!-- menu drawer deck choice -->
+    <string name="custom_deck_options">Custom deck</string>
+    <string name="set_custom_deck">Define images for custom deck</string>
+    <string name="reset_custom_deck">Delete custom deck</string>
+    <string name="custom_deck_deleted">Custom deck deleted.</string>
+    <string name="custom_deck_not_enough_images">Could not create custom deck. Please select at least 32 images.</string>
+    <string name="set_custom_deck_hint">Please select at least 32 images from your gallery for the custon deck.</string>
+    <string name="set_custom_deck_hint_ok">OKAY</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <!-- main activity -->
+    <string name="new_game">New Game</string>
+
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_moderate">Moderate</string>
+    <string name="difficulty_hard">Hard</string>
+
+    <string name="mode_single_player">Single Player</string>
+    <string name="mode_duo_player">Dual player</string>
+
+    <!-- about activity -->
+    <string name="version_number" translatable="false">Version</string>
+    <string name="about_author">Author:</string>
+    <string name="about_author_names" translatable="false">Hannes Hofmann</string>
+    <string name="about_author_contributors">and contributors.</string>
+    <string name="about_affiliation">In affiliation with:</string>
+    <string name="privacy_friendly">This application belongs to the group of Privacy Friendly Apps developed by Technische Universität Darmstadt. Sourcecode licensed under GPLv3. Images copyright TU Darmstadt and Google Inc.</string>
+    <string name="more_info">More information can be found on:</string>
+    <string name="secuso_url" translatable="false"><a href="https://www.secuso.org/pfa">SECUSO-Website</a></string>
+    <string name="gitrepo_url" translatable="false"><a href="https://github.com/SecUSo/privacy-friendly-memory">Github-Repo</a></string>
+    <string name="tux_deck_provided">TuX deck images provided by:</string>
+    <string name="animal_deck_provided">Animal deck images provided by:</string>
+
+    <!-- help activity -->
+    <string name="help_game_mode">Game mode</string>
+    <string name="help_single_player">Create a single player game</string>
+    <string name="help_duo_player">Create a dual player game</string>
+    <string name="help_game_difficulty">Game difficulty</string>
+    <string name="help_game_difficulty_summary">Number of cards depending on the game difficulty.</string>
+    <string name="help_custom_deck">You can select own images for the cards from your gallery in the deck choice settings.</string>
+    <string name="help_highscore">The Highscore is calculated using the number of tries, the time and the game difficulty.</string>
+    <string name="help_privacyInfo">Privacy Info</string>
+    <string name="help_permissions">Permissions</string>
+    <string name="help_permissions_summary">Privacy Friendly Memo Game does not use any permissions.</string>
+
+    <!-- welcome dialog -->
+    <string name="welcome_title">Welcome</string>
+    <string name="field_select_description">Swipe or press the arrow buttons on the left and right to change the game mode.</string>
+    <string name="field_select_description_headline">1. Game mode:</string>
+    <string name="difficulty_description">Press or swipe the stars to change the difficulty.</string>
+    <string name="difficulty_description_headline">2. Difficulty:</string>
+    <string name="play">Let\'s play the Memo Game!</string>
+
+    <!-- win dialoag -->
+    <string name="win_text">Congratulations!</string>
+    <string name="win_text_duo">Congratulations</string>
+    <string name="win_text_duo_draw">Draw!</string>
+    <string name="win_time">Time:</string>
+    <string name="win_tries">Tries:</string>
+    <string name="win_highscore">Highscore:</string>
+    <string name="win_button_text">Continue</string>
+    <string name="win_show_game">Show gamefield</string>
+
+    <!-- memo-game activity -->
+    <string name="player_name_prefix">Player</string>
+    <string name="stats_found_cards">Pairs: </string>
+    <string name="stats_tries">Tries: </string>
+    <string name="quit_game_text">Do you want to quit the game?</string>
+    <string name="quit_yes">Yes</string>
+    <string name="quit_no">No</string>
+</resources>

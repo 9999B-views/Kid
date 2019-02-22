@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Touch Ball</string>
+
+    <string name="new_game">New Game</string>
+    <string name="continue_game">continue_game</string>
+    <string name="exit_game">exit_game</string>
+
+    <string name="title_message1">title_message1</string>
+    <string name="text_massage1">Hey player, you need 4 seconds. fill 5 balls! Well, take a chance?</string>
+
+</resources>

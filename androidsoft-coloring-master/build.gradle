@@ -1,0 +1,52 @@
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.3' 
+}
+
+
+buildscript {
+    repositories {
+        //mavenCentral()
+        jcenter()
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+    }
+}
+
+repositories {
+    //mavenCentral()
+    jcenter()
+    maven {
+        url 'https://maven.google.com/'
+        name 'Google'
+    }
+}
+
+
+apply plugin: 'com.android.application'
+
+dependencies {
+    compile fileTree( dir: 'libs', include:'*.jar' )
+}
+
+android {
+    compileSdkVersion 19
+
+    buildToolsVersion '28.0.3'
+
+    lintOptions {
+        enable 'UnusedIds', 'EasterEgg' //, 'NewerVersionAvailable'
+    }
+
+    apply from: 'sign.gradle'
+    defaultConfig {
+        minSdkVersion = 14
+    }
+}
+
+

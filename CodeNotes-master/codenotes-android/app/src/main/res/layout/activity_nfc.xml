@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/nfc_home_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="@dimen/unit300"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/unit30"
+            android:layout_marginStart="@dimen/unit30"
+            android:src="@drawable/codenoteslogo" />
+
+        <TextView
+            android:layout_width="@dimen/unit200"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/unit20"
+            android:fontFamily="@font/nunitofamily"
+            android:text="@string/hello_blank_fragment"
+            android:textSize="@dimen/unit20" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/nfc_motherboard_layout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="@dimen/unit200"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/unit30"
+            android:layout_marginStart="@dimen/unit30"
+            android:src="@drawable/codenoteslogo" />
+
+        <TextView
+            android:layout_width="@dimen/unit150"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/unit20"
+            android:fontFamily="@font/nunitofamily"
+            android:text="@string/hello_blank_fragment"
+            android:textSize="@dimen/unit20" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/nfc_processor_layout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="@dimen/unit200"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/unit30"
+            android:layout_marginStart="@dimen/unit30"
+            android:src="@drawable/codenoteslogo" />
+
+        <TextView
+            android:layout_width="@dimen/unit150"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/unit20"
+            android:fontFamily="@font/nunitofamily"
+            android:text="@string/hello_blank_fragment"
+            android:textSize="@dimen/unit20" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/nfc_harddisk_layout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="@dimen/unit200"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/unit30"
+            android:layout_marginStart="@dimen/unit30"
+            android:src="@drawable/codenoteslogo" />
+
+        <TextView
+            android:layout_width="@dimen/unit150"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/unit20"
+            android:fontFamily="@font/nunitofamily"
+            android:text="@string/hello_blank_fragment"
+            android:textSize="@dimen/unit20" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lnItem"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:weightSum="160"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:layout_weight="137">
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/rivItem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:background="@drawable/retangle"
+            android:scaleType="centerCrop"
+            android:src="@drawable/no_img_available"
+            android:visibility="visible"
+            app:riv_border_color="#ffffff"
+            app:riv_border_width="8dp"
+            app:riv_corner_radius="30dip"
+            app:riv_mutate_background="true"
+            app:riv_oval="false"
+            app:riv_tile_mode="clamp"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_weight="20"
+        android:id="@+id/tvTTTro"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="Trò 1"
+        android:background="@android:color/transparent"
+        android:textAlignment="center"
+        android:textColor="#342e89"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+</LinearLayout>

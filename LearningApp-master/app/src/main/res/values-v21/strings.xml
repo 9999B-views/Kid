@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="numerals">Angka</string>
+    <string name="timer">00:00:00</string>
+    <string name="alphabets_lower">Huruf Kecil</string>
+    <string name="alphabets_upper">Huruf Kapital</string>
+    <string name="skip">Lewati</string>
+    <string name="account_info">Anda sudah masuk menggunakan Facebook.</string>
+    <string name="facebook_login">Masuk menggunakan Facebook</string>
+    <string name="click_login">Dengan masuk menggunakan Facebook, Anda memiliki kelebihan untuk melihat Papan Skor!</string>
+    <string name="account">Akun</string>
+    <string name="scoreboard">Papan Skor</string>
+    <string name="home">Beranda</string>
+    <string name="accuracy_score">Akurasi Skor</string>
+    <string name="next">OK</string>
+    <string name="guest">Pengguna</string>
+    <string name="facebook_logout">Keluar dari Facebook</string>
+    <string name="ok">OK</string>
+    <string name="heading_dialog">Simpan Skor</string>
+    <string name="back">Kembali</string>
+    <string name="clear">Hapus Kanvas</string>
+    <string name="placeholder">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+</resources>

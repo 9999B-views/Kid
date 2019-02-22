@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\build\\intermediates\\res\\merged\\debug\\layout_button_paint_spot.xml.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\src\\main\\res\\layout\\button_paint_spot.xml"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_paint_splot.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\src\\main\\res\\drawable-xhdpi\\ic_paint_splot.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_eraser.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_eraser.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_undo.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_undo.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_play.xml.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\src\\main\\res\\layout\\activity_play.xml"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_brush.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_brush.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_save.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_save.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_redo.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_redo.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_play.xml.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\src\\main\\res\\layout-land\\activity_play.xml"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_img_a_inner.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\src\\main\\res\\drawable-mdpi\\img_a_inner.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_play.xml.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\src\\main\\res\\menu\\activity_play.xml"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_img_a.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\src\\main\\res\\drawable-mdpi\\img_a.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_cancel.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_cancel.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    }
+]

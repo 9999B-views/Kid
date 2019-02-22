@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/question_dialog_frame"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        app:cardCornerRadius="@dimen/unit12"
+        app:cardBackgroundColor="@color/transDarkGrey">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:background="@color/transparent">
+
+            <ImageView
+                android:id="@+id/question_prev_page_button"
+                android:layout_width="@dimen/unit30"
+                android:layout_height="@dimen/unit30"
+                android:layout_gravity="center_vertical"
+                app:srcCompat="@drawable/left_arrow" />
+
+            <LinearLayout
+                android:layout_width="@dimen/unit400"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/unit15"
+                android:background="@color/transparent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/question_dialog_title"
+                    style="@style/DialogTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="@dimen/unit5"
+                    tools:text="Dialog Title" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:id="@+id/question_dialog_body"
+                    style="@style/DialogBody"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="@dimen/unit5"
+                    tools:text="@tools:sample/lorem" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:visibility="gone"
+                    android:id="@+id/question_edittext"
+                    android:layout_width="@dimen/unit150"
+                    android:layout_height="@dimen/unit50"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:backgroundTint="@color/white"
+                    android:layout_gravity="center_horizontal"
+                    android:inputType="numberDecimal"
+                    tools:hint="Hint text" />
+
+                <Button
+                    android:id="@+id/question_submit_button"
+                    style="@style/DialogButton"
+                    android:layout_width="@dimen/unit120"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/question_submit_button_text" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/question_next_page_button"
+                android:layout_width="@dimen/unit30"
+                android:layout_height="@dimen/unit30"
+                android:layout_gravity="center_vertical"
+                app:srcCompat="@drawable/right_arrow" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

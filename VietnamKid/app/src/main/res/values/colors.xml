@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+
+    <!-- Man hinh NhanBietChuDialog-->
+    <color name="dialog_hoc_chu_background">#FCF2C8</color>
+    <color name="inner_border_dialog_color">#64E2BE</color>
+    <color name="outer_border_dialog_color">#96EACC</color>
+
+    <color name="text_question">#030303</color>
+
+
+    <color name="btn_selected">#39a29c</color>
+    <color name="btn_normal">#FFFFFF</color>
+    <color name="btn_pressed">#fdd33f</color>
+    <color name="text_color">#ff4747</color>
+    <color name="btn_border">#ff7f00</color>
+    <color name="background">#000000</color>
+    <color name="game_view_frame">#ff0000</color>
+    <color name="dialog_backgound">#C074d0f7</color>
+    <color name="black_overlay">#66000000</color>
+
+</resources>

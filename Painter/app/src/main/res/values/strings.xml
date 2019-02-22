@@ -1,0 +1,8 @@
+<resources>
+	
+	<string name="app_name">Painter</string>
+	
+	<string name="saving">Saving…</string>
+	<string name="saved_as">Saved As:\n</string>
+	
+</resources>

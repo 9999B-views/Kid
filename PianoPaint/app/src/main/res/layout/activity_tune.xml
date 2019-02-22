@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/night_sky"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codeclan.peeniepaint.TuneActivity">
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="8"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/a"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:fontFamily="casual"
+            android:text="a"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/b"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:fontFamily="casual"
+            android:text="b"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/c"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:fontFamily="casual"
+            android:text="c"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/d"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:fontFamily="casual"
+            android:text="d"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/e"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:fontFamily="casual"
+            android:text="e"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/f"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:fontFamily="casual"
+            android:text="f"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/g"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:fontFamily="casual"
+            android:text="g"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/h"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:fontFamily="casual"
+            android:text="h"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginRight="100dp"
+        android:adjustViewBounds="false"
+        app:srcCompat="@drawable/cloud2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/moon" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/rocket"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="119dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginTop="32dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        app:srcCompat="@drawable/cloud1"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_alignRight="@+id/imageView3"
+        android:layout_alignEnd="@+id/imageView3" />
+
+
+
+
+
+</RelativeLayout>

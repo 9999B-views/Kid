@@ -1,0 +1,4 @@
+#Wed Feb 20 17:22:41 SGT 2019
+base.0=C\:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Finger-Paint-master1\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

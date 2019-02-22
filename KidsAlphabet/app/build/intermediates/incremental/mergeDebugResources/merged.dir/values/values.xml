@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_color">#00B2EE</color>
+    <color name="custom_theme_color">#b0b0ff</color>
+    <color name="gray_color">#808080</color>
+    <color name="green_color">#00FF7F</color>
+    <color name="orange_color">#FF8000</color>
+    <color name="yellow_color">#FFFF00</color>
+    <string name="a">Apple</string>
+    <string name="app_desc">Teaches alphabet for Kids</string>
+    <string name="app_name">Alphabet for Kids</string>
+    <string name="b">Ball</string>
+    <string name="c">Car</string>
+    <string name="d">Dog</string>
+    <string name="e">Egg</string>
+    <string name="f">Flower</string>
+    <string name="g">Grape</string>
+    <string name="h">Hat</string>
+    <string name="i">Igloo</string>
+    <string name="j">Jar</string>
+    <string name="k">King</string>
+    <string name="l">Lion</string>
+    <string name="m">Money</string>
+    <string name="n">Nest</string>
+    <string name="o">Orange</string>
+    <string name="p">Peach</string>
+    <string name="q">Queen</string>
+    <string name="r">Rat</string>
+    <string name="s">Salt</string>
+    <string name="t">Train</string>
+    <string name="u">Unicorn</string>
+    <string name="v">Van</string>
+    <string name="w">Watch</string>
+    <string name="x">X ray</string>
+    <string name="y">Yacht</string>
+    <string name="z">Zebra</string>
+    <style name="AlphabetTheme" parent="android:Theme.Light">
+	    <item name="android:windowBackground">@color/custom_theme_color</item>
+	    <item name="android:colorBackground">@color/custom_theme_color</item>
+	</style>
+    <style name="ButtonFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFC125</item>
+        <item name="android:background">#8B6508</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">35sp</item>
+    </style>
+    <style name="CaptionFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#8B5A00</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">35sp</item>
+    </style>
+    <style name="LowerCaseFont" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#228B22</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">80sp</item>
+    </style>
+    <style name="UpperCaseFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#228B22</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">120sp</item>
+    </style>
+</resources>

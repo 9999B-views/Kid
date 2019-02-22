@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Little Tales</string>
+    <string name="url_string">https://raw.githubusercontent.com/Kaiwen20111998/Fairly_Tales/master/tales.json</string>
+    <string name="title_tale">title</string>
+    <string name="synopsis_tale">synopsis</string>
+    <string name="image_tale">image tale</string>
+    <string name="slogan_text">The app where you remember your childhood</string>
+    <string name="splash_image">splash_image</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/program_layout"
+    android:layout_margin="@dimen/unit8"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/unit160">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/program_delete"
+        android:layout_width="@dimen/unit24"
+        android:layout_height="@dimen/unit24"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/unit3"
+        android:tint="@color/white"
+        app:fabCustomSize="@dimen/unit24"
+        app:srcCompat="@drawable/ic_close" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/program_card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/unit10"
+        android:backgroundTint="@color/md_blue_grey_100"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="@dimen/unit10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/program_image"
+                android:layout_width="@dimen/unit120"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="@dimen/unit3" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/program_name"
+                    android:layout_width="wrap_content"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    />
+
+                <Button
+                    android:id="@+id/program_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/program_detail"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

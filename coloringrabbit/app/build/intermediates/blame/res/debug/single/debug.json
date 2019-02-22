@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_button_navigation_pressed.xml.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\drawable\\bg_button_navigation_pressed.xml"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_element_page_selection.xml.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\layout\\element_page_selection.xml"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_settings.xml.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\xml\\settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_button_navigation.xml.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\drawable\\bg_button_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_color_picker.xml.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\layout\\activity_color_picker.xml"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_about.xml.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\layout\\activity_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_close_white_48dp.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_close_white_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_navigate_before_white_48dp.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_navigate_before_white_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_delete_white_48dp.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_delete_white_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_book_selection_main.xml.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\layout\\activity_book_selection_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_in_from_right.xml.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\anim\\slide_in_from_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_settings_white_48dp.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_settings_white_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_settings_white_48dp.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_settings_white_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_photo_library_white_48dp.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_photo_library_white_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_share_white_48dp.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_share_white_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_close_white_48dp.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_close_white_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_button_color_selection.xml.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\drawable\\bg_button_color_selection.xml"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_page_background.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\drawable\\page_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_out_to_left.xml.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\anim\\slide_out_to_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_book_background.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\drawable\\book_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_share_white_48dp.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_share_white_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_coloring.xml.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\layout\\activity_coloring.xml"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_send_log.xml.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\layout\\activity_send_log.xml"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_delete_white_48dp.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_delete_white_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_button_navigation_enabled.xml.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\drawable\\bg_button_navigation_enabled.xml"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_page_selection.xml.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\layout\\activity_page_selection.xml"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_picture_gallery.xml.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\layout\\activity_picture_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_in_from_left.xml.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\anim\\slide_in_from_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_photo_library_white_48dp.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_photo_library_white_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_element_color_selection_grid.xml.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\layout\\element_color_selection_grid.xml"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_navigate_before_white_48dp.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_navigate_before_white_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_out_to_right.xml.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\anim\\slide_out_to_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_element_book_selection.xml.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\layout\\element_book_selection.xml"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_view_border.xml.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\coloring-master\\android\\app\\src\\main\\res\\drawable\\bg_view_border.xml"
+    }
+]

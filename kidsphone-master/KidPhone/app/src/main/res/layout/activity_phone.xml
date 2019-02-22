@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="1"
+    android:background="@drawable/gradient"
+    tools:context=".PhoneActivity">
+    <kidtoys.az.kidphone.FunnyDisplay android:layout_height="@dimen/display_height"
+        android:layout_width="@dimen/display_width"
+        android:id="@+id/display"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        >
+
+    </kidtoys.az.kidphone.FunnyDisplay>
+    <android.support.v7.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/KeysGroup"
+        app:alignmentMode="alignBounds"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        app:columnCount="3"
+        app:rowCount="3">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            app:layout_columnSpan="3"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
+            <kidtoys.az.kidphone.FunnyButton
+                android:id="@+id/buttonYes"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/smallSpace"
+                android:layout_weight="1"
+                app:InnerShapeProperty="YesPhone"
+                app:OuterShapeProperty="YesButton"
+                app:KeyMode="System"
+                app:OuterShapeDirection="Left"
+                app:innerShapeColor="#ffffff"
+                app:outerShapeColor="#a4ff41" />
+
+            <kidtoys.az.kidphone.FunnyButton
+                android:id="@+id/buttonNo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/smallSpace"
+                android:layout_weight="1"
+                app:InnerShapeProperty="NoPhone"
+                app:OuterShapeProperty="NoButton"
+                app:KeyMode="System"
+                app:OuterShapeDirection="Right"
+                app:innerShapeColor="#ffffff"
+                app:outerShapeColor="#ff6363" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            app:layout_columnSpan="3"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
+            <kidtoys.az.kidphone.FunnyButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/smallSpace2"
+                android:layout_weight="1"
+                android:id="@+id/KeysMode"
+                android:padding="@dimen/smallSpace2"
+                app:KeyMode="System"
+                app:InnerShapeProperty="Picture"
+                app:OuterShapeProperty="Rectangle"
+                app:OuterShapeDirection="Left"
+                app:outerShapeColor="#02bebe" />
+
+            <kidtoys.az.kidphone.FunnyButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/smallSpace"
+                android:layout_weight="1"
+                android:padding="@dimen/smallSpace2"
+                app:KeyMode="System"
+                android:id="@+id/quizMode"
+                app:InnerShapeProperty="Picture"
+                app:pictureSrc="@drawable/question"
+                app:OuterShapeDirection="Center"
+                app:OuterShapeProperty="Rectangle"
+                app:outerShapeColor="#ff9757" />
+
+            <kidtoys.az.kidphone.FunnyButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/smallSpace2"
+                android:layout_weight="1"
+                android:padding="@dimen/smallSpace2"
+                app:KeyMode="System"
+                android:id="@+id/gameMode"
+                app:InnerShapeProperty="Picture"
+                app:pictureSrc="@drawable/game"
+                app:OuterShapeDirection="Right"
+                app:OuterShapeProperty="Rectangle"
+                app:outerShapeColor="#b7960e8d" />
+        </LinearLayout>
+
+        <kidtoys.az.kidphone.FunnyButton
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:padding="@dimen/smallSpace2"
+            app:InnerShapeProperty="Circle"
+            app:OuterShapeProperty="Rounded"
+            app:NumbersText="1"
+            app:LettersText="ABC"
+            app:TextColor="#ffffff"
+            app:TextSize="22sp"
+            app:innerShapeColor="#ffffff"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            app:OuterShapeDirection="LeftTop"
+            app:outerShapeColor="#FA58F4" />
+
+        <kidtoys.az.kidphone.FunnyButton
+            android:id="@+id/heart"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:padding="@dimen/smallSpace2"
+            app:InnerShapeProperty="Square"
+            app:OuterShapeProperty="Rounded"
+            app:NumbersText="2"
+            app:LettersText="ÇDE"
+            app:TextColor="#ffffff"
+            app:TextSize="22sp"
+            app:innerShapeColor="#ffffff"
+            app:layout_columnWeight="1"
+            app:OuterShapeDirection="Top"
+            app:layout_rowWeight="1"
+            app:outerShapeColor="#FFBF00" />
+
+        <kidtoys.az.kidphone.FunnyButton
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:padding="@dimen/smallSpace2"
+            app:InnerShapeProperty="Triangle"
+            app:OuterShapeProperty="Rounded"
+            app:NumbersText="3"
+            app:LettersText="ƏFG"
+            app:TextColor="#ffffff"
+            app:TextSize="22sp"
+            app:innerShapeColor="#ffffff"
+            app:layout_columnWeight="1"
+            app:OuterShapeDirection="RightTop"
+            app:layout_rowWeight="1"
+            app:outerShapeColor="#FA58F4" />
+
+        <kidtoys.az.kidphone.FunnyButton
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:padding="@dimen/smallSpace2"
+            app:InnerShapeProperty="Rectangle"
+            app:OuterShapeProperty="Rounded"
+            app:NumbersText="4"
+            app:LettersText="ĞHX"
+            app:TextColor="#ffffff"
+            app:TextSize="22sp"
+            app:innerShapeColor="#ffffff"
+            app:layout_columnWeight="1"
+            app:OuterShapeDirection="Left"
+            app:layout_rowWeight="1"
+            app:outerShapeColor="#FFBF00" />
+
+        <kidtoys.az.kidphone.FunnyButton
+            android:id="@+id/ell"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:padding="@dimen/smallSpace2"
+            app:InnerShapeProperty="Pentagon"
+            app:OuterShapeProperty="Rounded"
+            app:NumbersText="5"
+            app:LettersText="IİJ"
+            app:TextColor="#ffffff"
+            app:TextSize="22sp"
+            app:innerShapeColor="#ffffff"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            app:outerShapeColor="#ff6363" />
+
+        <kidtoys.az.kidphone.FunnyButton
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:padding="@dimen/smallSpace2"
+            app:InnerShapeProperty="Hexagon"
+            app:OuterShapeProperty="Rounded"
+            app:NumbersText="6"
+            app:LettersText="KQL"
+            app:TextColor="#ffffff"
+            app:TextSize="22sp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            app:OuterShapeDirection="Right"
+            app:innerShapeColor="#ffffff"
+            app:outerShapeColor="#FFBF00" />
+
+        <kidtoys.az.kidphone.FunnyButton
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:padding="@dimen/smallSpace2"
+            app:InnerShapeProperty="Ellipse"
+            app:OuterShapeProperty="Rounded"
+            app:NumbersText="7"
+            app:LettersText="MNO"
+            app:TextColor="#ffffff"
+            app:TextSize="22sp"
+            app:innerShapeColor="#ffffff"
+            app:layout_columnWeight="1"
+            app:OuterShapeDirection="LeftBottom"
+            app:layout_rowWeight="1"
+            app:outerShapeColor="#FA58F4" />
+
+        <kidtoys.az.kidphone.FunnyButton
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:padding="@dimen/smallSpace2"
+            app:InnerShapeProperty="Heart"
+            app:OuterShapeProperty="Rounded"
+            app:NumbersText="8"
+            app:LettersText="ÖPR"
+            app:TextColor="#ffffff"
+            app:TextSize="22sp"
+            app:innerShapeColor="#ffffff"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            app:OuterShapeDirection="Bottom"
+            app:outerShapeColor="#FFBF00" />
+
+        <kidtoys.az.kidphone.FunnyButton
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:padding="@dimen/smallSpace2"
+            app:InnerShapeProperty="Star"
+            app:OuterShapeProperty="Rounded"
+            app:NumbersText="9"
+            app:LettersText="SŞT"
+            app:TextColor="#ffffff"
+            app:TextSize="22sp"
+            app:innerShapeColor="#ffffff"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            app:OuterShapeDirection="RightBottom"
+            app:outerShapeColor="#FA58F4" />
+
+        <kidtoys.az.kidphone.FunnyButton
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:paddingTop="@dimen/smallSpace2"
+            android:paddingLeft="@dimen/bigSpace"
+            android:paddingRight="@dimen/bigSpace"
+            app:InnerShapeProperty="Trapes"
+            app:OuterShapeProperty="BottomRounded"
+            app:NumbersText="0"
+            app:LettersText="UÜVYZ"
+            app:TextColor="#ffffff"
+            app:TextSize="22sp"
+            app:innerShapeColor="#ffffff"
+            app:layout_columnSpan="3"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            app:OuterShapeDirection="Bottom"
+            app:outerShapeColor="#00ddff" />
+    </android.support.v7.widget.GridLayout>
+
+
+</LinearLayout>

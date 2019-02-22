@@ -1,0 +1,118 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\build\\intermediates\\res\\merged\\debug\\values-land_values-land.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\src\\main\\res\\values-land\\config.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "57",
+                        "endColumns": "38",
+                        "endOffsets": "94"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "41",
+                        "endOffsets": "92"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\src\\main\\res\\values\\actions.xml",
+                    "from": {
+                        "startLines": "3,4,5,6,8,7,10,11,12,13,15,14",
+                        "startColumns": "1,1,1,1,1,1,1,1,1,1,1,1",
+                        "startOffsets": "57,98,140,182,262,222,305,350,397,444,530,487",
+                        "endColumns": "39,40,40,38,38,38,43,45,45,41,41,41",
+                        "endOffsets": "95,137,179,219,299,259,347,394,441,484,570,527"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "192,234,277,320,361,402,443,490,539,588,633,678",
+                        "endColumns": "41,42,42,40,40,40,46,48,48,44,44,44",
+                        "endOffsets": "229,272,315,356,397,438,485,534,583,628,673,718"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,5,4",
+                        "startColumns": "1,1,1",
+                        "startOffsets": "17,104,63",
+                        "endColumns": "41,45,39",
+                        "endOffsets": "57,148,101"
+                    },
+                    "to": {
+                        "startLines": "17,18,19",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "723,768,817",
+                        "endColumns": "44,48,42",
+                        "endOffsets": "763,812,855"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "1,1",
+                        "startOffsets": "57,98",
+                        "endColumns": "39,47",
+                        "endOffsets": "95,144"
+                    },
+                    "to": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "98,141",
+                        "endColumns": "42,50",
+                        "endOffsets": "136,187"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "12,3,7",
+                        "startColumns": "1,1,1",
+                        "startOffsets": "380,57,218",
+                        "endLines": "16,5,10",
+                        "endColumns": "9,9,9",
+                        "endOffsets": "661,212,374"
+                    },
+                    "to": {
+                        "startLines": "20,25,28",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "860,1142,1300",
+                        "endLines": "24,27,31",
+                        "endColumns": "9,9,9",
+                        "endOffsets": "1137,1295,1453"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Painter\\app\\src\\main\\res\\values\\config.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "57",
+                        "endColumns": "39",
+                        "endOffsets": "95"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "42",
+                        "endOffsets": "93"
+                    }
+                }
+            ]
+        }
+    ]
+}

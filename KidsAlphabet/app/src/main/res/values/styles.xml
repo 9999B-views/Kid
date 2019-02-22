@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CaptionFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#8B5A00</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">35sp</item>
+    </style>
+    <style name="UpperCaseFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#228B22</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">120sp</item>
+    </style>
+    <style name="LowerCaseFont" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#228B22</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">80sp</item>
+    </style>  
+    <style name="ButtonFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFC125</item>
+        <item name="android:background">#8B6508</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">35sp</item>
+    </style>  
+    <color name="gray_color">#808080</color>
+    <color name="green_color">#00FF7F</color>
+    <color name="orange_color">#FF8000</color>
+    <color name="yellow_color">#FFFF00</color>  
+    <color name="blue_color">#00B2EE</color>  
+    <color name="custom_theme_color">#b0b0ff</color>
+	<style name="AlphabetTheme" parent="android:Theme.Light">
+	    <item name="android:windowBackground">@color/custom_theme_color</item>
+	    <item name="android:colorBackground">@color/custom_theme_color</item>
+	</style>
+</resources>

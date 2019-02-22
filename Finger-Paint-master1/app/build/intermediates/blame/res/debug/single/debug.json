@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Finger-Paint-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Finger-Paint-master1\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Finger-Paint-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Finger-Paint-master1\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Finger-Paint-master1\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Finger-Paint-master1\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Finger-Paint-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_default_icon.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Finger-Paint-master1\\app\\src\\main\\res\\drawable-ldpi\\default_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Finger-Paint-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_default_icon.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Finger-Paint-master1\\app\\src\\main\\res\\drawable-mdpi\\default_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Finger-Paint-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_icon.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Finger-Paint-master1\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Finger-Paint-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_default_icon.png.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Finger-Paint-master1\\app\\src\\main\\res\\drawable-hdpi\\default_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Finger-Paint-master1\\app\\build\\intermediates\\res\\merged\\debug\\menu_paint_menu.xml.flat",
+        "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\Finger-Paint-master1\\app\\src\\main\\res\\menu\\paint_menu.xml"
+    }
+]

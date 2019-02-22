@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.frype.coloring">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".ColoringApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".settings.SettingsActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".about.AboutActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".coloring.ColoringActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".color_picker.ColorPickerActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".page_selection.PageSelectionActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".picture_gallery.PictureGalleryActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".book_selection.BookSelectionMainActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".error_log.SendLogActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

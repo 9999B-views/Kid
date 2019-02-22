@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\WORKING\\frances-tracing-game-master1\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Documents\\Downloads\\Compressed\\ADMOB\\KIDS\\WORKING\\frances-tracing-game-master1\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "649",
+                        "endColumns": "60",
+                        "endOffsets": "705"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "60",
+                        "endOffsets": "111"
+                    }
+                }
+            ]
+        }
+    ]
+}
